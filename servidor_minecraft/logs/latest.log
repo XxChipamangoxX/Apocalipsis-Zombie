@@ -564,3 +564,20 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [30Mar2025 15:37:34.854] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity zombie_island:shambler but it was marked as removed already
 [30Mar2025 15:37:47.427] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 lost connection: Disconnected
 [30Mar2025 15:37:47.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CreeperHunte2068 left the game
+[30Mar2025 15:52:36.330] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jepzzu[/100.114.245.76:50428] logged in with entity id 1128 at (23.5, 70.0, -12.5)
+[30Mar2025 15:52:36.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jepzzu joined the game
+[30Mar2025 15:52:37.327] [Server thread/INFO] [ping-wheel/]: Channel update: Jepzzu -> default
+[30Mar2025 15:52:46.301] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CreeperHunte2068[/100.71.127.83:53693] logged in with entity id 1151 at (23.61211915602771, 70.0, -11.416695055527704)
+[30Mar2025 15:52:46.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CreeperHunte2068 joined the game
+[30Mar2025 15:52:46.693] [Server thread/INFO] [ping-wheel/]: Channel update: CreeperHunte2068 -> default
+[30Mar2025 15:53:25.229] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=20, y=68, z=-13}
+[30Mar2025 15:53:52.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Set own game mode to Survival Mode]
+[30Mar2025 15:54:06.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Set the time to 1000]
+[30Mar2025 15:56:00.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jepzzu has made the advancement [Electrical engineering is easy!]
+[30Mar2025 15:59:00.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jepzzu has made the advancement [Stone Age]
+[30Mar2025 15:59:50.334] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Set own game mode to Creative Mode]
+[30Mar2025 16:00:20.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Set own game mode to Survival Mode]
+[30Mar2025 16:01:29.526] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 lost connection: Disconnected
+[30Mar2025 16:01:29.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CreeperHunte2068 left the game
+[30Mar2025 16:05:48.527] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jepzzu lost connection: Disconnected
+[30Mar2025 16:05:48.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jepzzu left the game
