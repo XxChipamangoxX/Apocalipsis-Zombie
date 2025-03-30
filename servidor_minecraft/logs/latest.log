@@ -581,3 +581,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [30Mar2025 16:01:29.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CreeperHunte2068 left the game
 [30Mar2025 16:05:48.527] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jepzzu lost connection: Disconnected
 [30Mar2025 16:05:48.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jepzzu left the game
+[30Mar2025 16:22:08.429] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: meliodas3012[/100.68.241.34:62799] logged in with entity id 2622 at (35.5, 90.0, -15.5)
+[30Mar2025 16:22:08.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: meliodas3012 joined the game
+[30Mar2025 16:22:11.466] [Server thread/INFO] [ping-wheel/]: Channel update: meliodas3012 -> default
+[30Mar2025 16:22:25.782] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=35, y=92, z=-17}
