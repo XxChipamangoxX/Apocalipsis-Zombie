@@ -1,0 +1,17 @@
+{
+	id: "72e27760-91f9-4c54-898c-33adb08a8734"
+	type: "player"
+	player_name: "CreeperHunte2068"
+	ranks: {
+		72e27760-91f9-4c54-898c-33adb08a8734: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "CreeperHunte2068"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF5992"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
