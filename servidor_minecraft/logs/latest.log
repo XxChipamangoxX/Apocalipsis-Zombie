@@ -7029,3 +7029,21 @@ com.google.gson.JsonSyntaxException: Unknown item 'projectvibrantjourneys:stripp
 [01Apr2025 20:04:06.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Set own game mode to Survival Mode]
 [01Apr2025 20:04:20.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Set own game mode to Creative Mode]
 [01Apr2025 20:10:03.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Set the time to 1000]
+[01Apr2025 20:10:42.482] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 lost connection: Disconnected
+[01Apr2025 20:10:42.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CreeperHunte2068 left the game
+[01Apr2025 20:10:42.487] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client CreeperHunte2068
+[01Apr2025 20:10:56.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[01Apr2025 20:10:56.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Apr2025 20:10:56.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Apr2025 20:10:56.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Apr2025 20:10:57.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[negra]'/minecraft:overworld
+[01Apr2025 20:10:58.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[negra]'/minecraft:the_nether
+[01Apr2025 20:10:58.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[negra]'/minecraft:the_end
+[01Apr2025 20:10:58.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[negra]'/lostcities:lostcity
+[01Apr2025 20:10:58.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01Apr2025 20:10:58.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Apr2025 20:10:58.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Apr2025 20:10:58.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[01Apr2025 20:10:58.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Apr2025 20:10:58.340] [Server thread/INFO] [Framework/]: Unloading server configs...
+[01Apr2025 20:10:58.357] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
