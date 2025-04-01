@@ -1,259 +1,446 @@
-[30Mar2025 18:25:18.939] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[30Mar2025 18:25:18.942] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[30Mar2025 18:25:19.891] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[30Mar2025 18:25:19.950] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[30Mar2025 18:25:20.311] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[30Mar2025 18:25:20.313] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Mar2025 18:25:20.314] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Mar2025 18:25:20.315] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Mar2025 18:25:21.013] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 61 dependencies adding them to mods collection
-[30Mar2025 18:25:23.518] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[30Mar2025 18:25:23.538] [main/ERROR] [mixin/]: Mixin config fabric-item-api-v1.client.mixins.json does not specify "minVersion" property
-[30Mar2025 18:25:23.578] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
-[30Mar2025 18:25:23.581] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.client.mixins.json does not specify "minVersion" property
-[30Mar2025 18:25:23.614] [main/ERROR] [mixin/]: Mixin config crashexploitfixer.mixins.json does not specify "minVersion" property
-[30Mar2025 18:25:23.792] [main/ERROR] [mixin/]: Mixin config fabric-item-group-api-v1.mixins.json does not specify "minVersion" property
-[30Mar2025 18:25:23.795] [main/ERROR] [mixin/]: Mixin config fabric-item-group-api-v1.client.mixins.json does not specify "minVersion" property
-[30Mar2025 18:25:23.926] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[30Mar2025 18:25:23.929] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
-[30Mar2025 18:25:23.932] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
-[30Mar2025 18:25:23.945] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[30Mar2025 18:25:24.057] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 86 options available, 1 override(s) found
-[30Mar2025 18:25:24.058] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [dimthread]) to 'false'
-[30Mar2025 18:25:24.058] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[30Mar2025 18:25:24.071] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[30Mar2025 18:25:24.201] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 167 options available, 0 override(s) found
-[30Mar2025 18:25:24.493] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
-[30Mar2025 18:25:24.624] [main/WARN] [mixin/]: Reference map 'tacz_npc.refmap.json' for tacz_npc.mixins.json could not be read. If this is a development environment you can ignore this message
-[30Mar2025 18:25:24.668] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[30Mar2025 18:25:24.721] [main/INFO] [Embeddium Extra/]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
-[30Mar2025 18:25:24.943] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[30Mar2025 18:25:24.994] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[30Mar2025 18:25:25.347] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:25.347] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[30Mar2025 18:25:25.347] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin
-[30Mar2025 18:25:25.350] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:25.350] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[30Mar2025 18:25:25.350] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor
-[30Mar2025 18:25:25.931] [main/WARN] [mixin/]: Error loading class: dynamic_fps/impl/DynamicFPSMod (java.lang.ClassNotFoundException: dynamic_fps.impl.DynamicFPSMod)
-[30Mar2025 18:25:25.931] [main/WARN] [mixin/]: @Mixin target dynamic_fps.impl.DynamicFPSMod was not found mixins.sodiumoptionsmodcompat.json:DynamicFPSConfigAccessor
-[30Mar2025 18:25:26.079] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[30Mar2025 18:25:27.761] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue ItemStackCreationStatistics from mod jei as it's dev only!
-[30Mar2025 18:25:27.762] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.travelersbackpack.UntrackedIssue001 will be loaded as it matches versions: 9.1.33 in [9.1.0,)
-[30Mar2025 18:25:27.762] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.ForgeEventHandlerMixin]
-[30Mar2025 18:25:27.762] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.toolbelt.UntrackedIssue001 will NOT be loaded as mod toolbelt is not present
-[30Mar2025 18:25:27.763] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.tfcthermaldeposits.UntrackedIssue001 will NOT be loaded as mod tfcthermaldeposits is not present
-[30Mar2025 18:25:27.763] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.smallships.UntrackedIssue001 will NOT be loaded as mod smallships is not present
-[30Mar2025 18:25:27.763] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.railcraft.UntrackedIssue001 will NOT be loaded as mod railcraft is not present
-[30Mar2025 18:25:27.763] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.pneumaticcraft.UntrackedIssue001 will NOT be loaded as mod pneumaticcraft is not present
-[30Mar2025 18:25:27.763] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.occultism.UntrackedIssue001 will NOT be loaded as mod occultism is not present
-[30Mar2025 18:25:27.763] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue002 will be loaded as it matches versions: 1.20.1 in 1.20.1
-[30Mar2025 18:25:27.764] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.EntityTickListMixin]
-[30Mar2025 18:25:27.764] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.20.1 in 1.20.1
-[30Mar2025 18:25:27.764] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.irons_spellbooks.UntrackedIssue001 will NOT be loaded as mod irons_spellbooks is not present
-[30Mar2025 18:25:27.764] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue003 will be loaded as it matches versions: 47.3.7 in [47.2,)
-[30Mar2025 18:25:27.765] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue002 will be loaded as it matches versions: 47.3.7 in [47.2,)
-[30Mar2025 18:25:27.765] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [accessor.FakePlayerNetHandlerAccessor, accessor.ConnectionAccessor]
-[30Mar2025 18:25:27.765] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue001 will be loaded as it matches versions: 47.3.7 in [47.2,)
-[30Mar2025 18:25:27.765] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.ServerPlayerMixin, main.PlayerListMixin]
-[30Mar2025 18:25:27.765] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forbidden_arcanus.UntrackedIssue001 will NOT be loaded as mod forbidden_arcanus is not present
-[30Mar2025 18:25:27.765] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.curios.UntrackedIssue001 will be loaded as it matches versions: 5.11.1+1.20.1 in [5.9.1,)
-[30Mar2025 18:25:27.766] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to allowed list: [main.CuriosEventHandlerMixin]
-[30Mar2025 18:25:27.766] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.createaddition.UntrackedIssue001 will NOT be loaded as mod createaddition is not present
-[30Mar2025 18:25:27.766] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.create.UntrackedIssue001 will NOT be loaded as mod create is not present
-[30Mar2025 18:25:27.766] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.citadel.UntrackedIssue001 will NOT be loaded as mod citadel is not present
-[30Mar2025 18:25:27.767] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.betterf3.UntrackedIssue001 will NOT be loaded as mod betterf3 is not present
-[30Mar2025 18:25:27.767] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.badpackets.UntrackedIssue001 will NOT be loaded as mod badpackets is not present
-[30Mar2025 18:25:27.767] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.ars_nouveau.UntrackedIssue002 will NOT be loaded as mod ars_nouveau is not present
-[30Mar2025 18:25:27.767] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.ars_nouveau.UntrackedIssue001 will NOT be loaded as mod ars_nouveau is not present
-[30Mar2025 18:25:27.767] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.architectury.UntrackedIssue001 will be loaded as it matches versions: 9.2.14 in [9.0.8,)
-[30Mar2025 18:25:27.768] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.aether.UntrackedIssue001 will NOT be loaded as mod aether is not present
-[30Mar2025 18:25:27.768] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.ae2wtlib.UntrackedIssue001 will NOT be loaded as mod ae2wtlib is not present
-[30Mar2025 18:25:27.769] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod twilightforest as it is client side only!
-[30Mar2025 18:25:27.769] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod travelersbackpack as it is client side only!
-[30Mar2025 18:25:27.770] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod tombstone as it is client side only!
-[30Mar2025 18:25:27.770] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod pneumaticcraft as it is client side only!
-[30Mar2025 18:25:27.770] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod nuclearcraft as it is client side only!
-[30Mar2025 18:25:27.770] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod mousetweaks as it is client side only!
-[30Mar2025 18:25:27.770] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod minecraft as it is client side only!
-[30Mar2025 18:25:27.771] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod minecraft as mod modernfix is present!
-[30Mar2025 18:25:27.771] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod minecolonies as it is client side only!
-[30Mar2025 18:25:27.771] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ldlib as it is client side only!
-[30Mar2025 18:25:27.771] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod journeymap as it is client side only!
-[30Mar2025 18:25:27.771] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod jeresources as it is client side only!
-[30Mar2025 18:25:27.771] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod jei as it is client side only!
-[30Mar2025 18:25:27.771] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod jei as it is client side only!
-[30Mar2025 18:25:27.771] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod irons_spellbooks as it is client side only!
-[30Mar2025 18:25:27.772] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod iceberg as it is client side only!
-[30Mar2025 18:25:27.772] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod iceberg as it is client side only!
-[30Mar2025 18:25:27.772] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod iceberg as it is client side only!
-[30Mar2025 18:25:27.772] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod geckolib as it is client side only!
-[30Mar2025 18:25:27.773] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ftblibrary as it is client side only!
-[30Mar2025 18:25:27.773] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod flywheel as it is client side only!
-[30Mar2025 18:25:27.773] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod findme as it is client side only!
-[30Mar2025 18:25:27.773] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod emi_loot as it is client side only!
-[30Mar2025 18:25:27.774] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod emi as it is client side only!
-[30Mar2025 18:25:27.774] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod easy_villagers as it is client side only!
-[30Mar2025 18:25:27.774] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod difficultylock as it is client side only!
-[30Mar2025 18:25:27.775] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod cyclopscore as it is client side only!
-[30Mar2025 18:25:27.775] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod corpse as it is client side only!
-[30Mar2025 18:25:27.775] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod blue_skies as it is client side only!
-[30Mar2025 18:25:27.775] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod badpackets as it is client side only!
-[30Mar2025 18:25:27.775] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ae2wtlib as it is client side only!
-[30Mar2025 18:25:27.775] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping issue [untracked] from mod ae2wtlib as it is client side only!
-[30Mar2025 18:25:27.776] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.modernfix.CancelRLMixin will be loaded as it matches versions: 5.20.0+mc1.20.1 in [5.0.0,)
-[30Mar2025 18:25:27.776] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Mixins added to cancel list: [org.embeddedt.modernfix.common.mixin.perf.deduplicate_location.MixinResourceLocation]
-[30Mar2025 18:25:27.781] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping feature ResourceLocation Deduplication from mod minecraft as it's feature flag is not activated!
-[30Mar2025 18:25:27.781] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping feature Ingredient Deduplication from mod minecraft as it's feature flag is not activated!
-[30Mar2025 18:25:27.781] [main/INFO] [dev.uncandango.alltheleaks.AllTheLeaks/]: Skipping feature Prevent Search Ignored Items from mod jei as it's feature flag is not activated!
-[30Mar2025 18:25:27.790] [main/WARN] [mixin/]: Error loading class: com/tiviacz/travelersbackpack/handlers/ForgeEventHandler (java.lang.ClassNotFoundException: com.tiviacz.travelersbackpack.handlers.ForgeEventHandler)
-[30Mar2025 18:25:27.790] [main/WARN] [mixin/]: @Mixin target com.tiviacz.travelersbackpack.handlers.ForgeEventHandler was not found alltheleaks.mixins.json:main.ForgeEventHandlerMixin
-[30Mar2025 18:25:27.796] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
-[30Mar2025 18:25:27.798] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
-[30Mar2025 18:25:27.799] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
-[30Mar2025 18:25:27.802] [main/WARN] [mixin/]: Error loading class: dev/ftb/mods/ftbchunks/data/ClaimedChunkManagerImpl (java.lang.ClassNotFoundException: dev.ftb.mods.ftbchunks.data.ClaimedChunkManagerImpl)
-[30Mar2025 18:25:27.803] [main/WARN] [mixin/]: @Mixin target dev.ftb.mods.ftbchunks.data.ClaimedChunkManagerImpl was not found doespotatotick.mixins.json:ClaimedChunkManagerAccessor
-[30Mar2025 18:25:28.062] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[30Mar2025 18:25:28.390] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (11.83 s after launch)
-[30Mar2025 18:25:28.688] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[30Mar2025 18:25:28.688] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[30Mar2025 18:25:28.821] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[30Mar2025 18:25:28.821] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[30Mar2025 18:25:28.821] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[30Mar2025 18:25:28.821] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[30Mar2025 18:25:28.822] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[30Mar2025 18:25:30.309] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[30Mar2025 18:25:30.310] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[30Mar2025 18:25:30.319] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[30Mar2025 18:25:30.319] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[30Mar2025 18:25:30.351] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1957 milliseconds
-[30Mar2025 18:25:32.754] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[30Mar2025 18:25:32.755] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in lithium.mixins.json:world.temperature_cache.BiomeMixin, previously written by org.embeddedt.modernfix.common.mixin.perf.remove_biome_temperature_cache.BiomeMixin. Skipping method.
-[30Mar2025 18:25:33.236] [modloading-worker-0/INFO] [blinkload/]: Loading BlinkLoad.
-[30Mar2025 18:25:33.260] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[30Mar2025 18:25:33.397] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.2+1.20.1!
-[30Mar2025 18:25:33.412] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
-[30Mar2025 18:25:33.511] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[30Mar2025 18:25:33.709] [modloading-worker-0/INFO] [ping-wheel/]: [Ping-Wheel] Init
-[30Mar2025 18:25:33.717] [modloading-worker-0/INFO] [ping-wheel/]: [Ping-Wheel] Loaded ServerConfig(defaultChannelMode=auto, playerTrackingEnabled=true, msToRegenerate=1000, rateLimit=5)
-[30Mar2025 18:25:33.838] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[30Mar2025 18:25:33.842] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[30Mar2025 18:25:34.718] [modloading-worker-0/ERROR] [BadOptimizations/]: BadOptimizations is a client-only mod, this will have no effect on a server.
-[30Mar2025 18:25:34.897] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[30Mar2025 18:25:36.391] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:36.392] [main/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:25:36.392] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:36.393] [main/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:25:36.394] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:36.394] [main/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:25:36.395] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:36.395] [main/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:25:36.398] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:36.398] [main/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:25:36.399] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:36.399] [main/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:25:36.403] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:36.403] [main/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:25:36.404] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:36.404] [main/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:25:36.975] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[30Mar2025 18:25:36.975] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
-[30Mar2025 18:25:38.114] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Apocalipsis-Zombie/servidor_minecraft/config/norandomticks-common.toml is not correct. Correcting
-[30Mar2025 18:25:38.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key randomticks_blocks was corrected from [] to its default, []. 
-[30Mar2025 18:25:38.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ticks_blocks was corrected from [] to its default, []. 
-[30Mar2025 18:25:38.312] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
-[30Mar2025 18:25:38.357] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
-[30Mar2025 18:25:38.401] [modloading-worker-0/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: HELLO FROM COMMON SETUP
-[30Mar2025 18:25:38.401] [modloading-worker-0/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: DIRT BLOCK >> minecraft:dirt
-[30Mar2025 18:25:38.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[30Mar2025 18:25:38.486] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[30Mar2025 18:25:38.486] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[30Mar2025 18:25:38.487] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[30Mar2025 18:25:38.487] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[30Mar2025 18:25:38.487] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[30Mar2025 18:25:38.487] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[30Mar2025 18:25:38.487] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[30Mar2025 18:25:38.487] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
-[30Mar2025 18:25:38.511] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[30Mar2025 18:25:38.511] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[30Mar2025 18:25:38.512] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[30Mar2025 18:25:38.512] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[30Mar2025 18:25:38.522] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[30Mar2025 18:25:38.523] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[30Mar2025 18:25:38.523] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[30Mar2025 18:25:38.523] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[30Mar2025 18:25:38.523] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[30Mar2025 18:25:38.523] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[30Mar2025 18:25:38.524] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[30Mar2025 18:25:38.950] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.8 Target: 1.20.1-1.4.10
-[30Mar2025 18:25:38.950] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_aesthetic_andperformant] Starting version check at https://api.modrinth.com/updates/sqrN9u66/forge_updates.json
-[30Mar2025 18:25:39.092] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[30Mar2025 18:25:39.212] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "promos" is null
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:189) ~[fmlcore-1.20.1-47.3.7.jar%23254!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23254!/:?]
-[30Mar2025 18:25:39.215] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Starting version check at https://github.com/DynamicTreesTeam/DynamicTreesVersionInfo/blob/master/DynamicTrees.json?raw=true
-[30Mar2025 18:25:39.328] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamictrees] Found status: BETA Current: 1.20.1-1.4.1 Target: null
-[30Mar2025 18:25:39.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
-[30Mar2025 18:25:39.391] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
-[30Mar2025 18:25:39.391] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[30Mar2025 18:25:39.425] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.33 Target: null
-[30Mar2025 18:25:39.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30Mar2025 18:25:39.515] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30Mar2025 18:25:39.537] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[30Mar2025 18:25:39.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [embeddium_extra] Starting version check at https://api.modrinth.com/updates/rubidium-extra/forge_updates.json
-[30Mar2025 18:25:39.629] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [embeddium_extra] Found status: UP_TO_DATE Current: 0.5.4.4+mc1.20.1-build.131 Target: null
-[30Mar2025 18:25:39.629] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Starting version check at https://forge.curseupdate.com/433068/presencefootsteps
-[30Mar2025 18:25:39.816] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23253!/assets/.mcassetsroot' uses unexpected schema
-[30Mar2025 18:25:39.816] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23253!/data/.mcassetsroot' uses unexpected schema
-[30Mar2025 18:25:39.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [presencefootsteps] Found status: BETA Current: 1.20.1-1.9.1-beta.1 Target: 1.20.1-1.9.1-beta.1
-[30Mar2025 18:25:46.155] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag apocalypsenow:armor/cloth as it is missing following references: apocalypsenow:nurse_helmet (from apocalypsenow-3.0.4-forge-1.20.1.jar)
-[30Mar2025 18:25:46.662] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:minecraft:chests/villagetaigahouse
-com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'apocalypsenow:officer_chestplate'
-	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23258!/:?]
-	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23258!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
-	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?]
+[01Apr2025 19:23:01.259] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[01Apr2025 19:23:01.263] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
+[01Apr2025 19:23:02.126] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[01Apr2025 19:23:02.171] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[01Apr2025 19:23:02.622] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[01Apr2025 19:23:02.623] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Apr2025 19:23:02.624] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Apr2025 19:23:02.625] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Apr2025 19:23:03.510] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[01Apr2025 19:23:03.512] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 44 dependencies adding them to mods collection
+[01Apr2025 19:23:03.919] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[01Apr2025 19:23:03.939] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[01Apr2025 19:23:03.951] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[01Apr2025 19:23:03.960] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/scripts as it did not exist.
+[01Apr2025 19:23:03.968] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[01Apr2025 19:23:04.462] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Found version metadata from piston-meta.
+[01Apr2025 19:23:04.473] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: version.json is up to date.
+[01Apr2025 19:23:04.839] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Official mappings are up to date.
+[01Apr2025 19:23:05.597] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: MCPConfig is up to date.
+[01Apr2025 19:23:09.168] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 5195ms
+[01Apr2025 19:23:09.169] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[01Apr2025 19:23:09.212] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Apr2025 19:23:09.230] [main/ERROR] [mixin/]: Mixin config gamemenuremovegfarb-common.mixins.json does not specify "minVersion" property
+[01Apr2025 19:23:09.303] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
+[01Apr2025 19:23:09.691] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[01Apr2025 19:23:09.694] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[01Apr2025 19:23:09.878] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 186 options available, 3 override(s) found
+[01Apr2025 19:23:10.176] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[01Apr2025 19:23:10.281] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Apr2025 19:23:10.341] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Apr2025 19:23:10.433] [main/INFO] [Puzzles Lib/]: All mods {/workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar#234!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1d622556, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/simpleshops-1.2.2.jar#340!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4b9f7edc, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar#236!/=fuzs.puzzleslib.impl.core.ForgeModContainer@70ee1963, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/regrowth-1.20-46.31.2.jar#333!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2e0652ab, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ftb-teams-forge-2001.3.0.jar#287!/=fuzs.puzzleslib.impl.core.ForgeModContainer@22c29aa8, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/projectvibrantjourneys-1.20.1-6.0.0.jar#327!/=fuzs.puzzleslib.impl.core.ForgeModContainer@129b69b2, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/automobility-0.4.2+1.20.1-forge.jar#242!/=fuzs.puzzleslib.impl.core.ForgeModContainer@12be4f83, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/K-Turrets-3.0.25-1.20.1.jar#300!/=fuzs.puzzleslib.impl.core.ForgeModContainer@eb1d475, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar#343!/=fuzs.puzzleslib.impl.core.ForgeModContainer@389008d1, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/walkietalkie-forge-1.20.1-1.3.0.jar#361!/=fuzs.puzzleslib.impl.core.ForgeModContainer@718f3088, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/entity_texture_features_forge_1.20.1-6.1.1.jar#274!/=fuzs.puzzleslib.impl.core.ForgeModContainer@11adab6d, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar#281!/=fuzs.puzzleslib.impl.core.ForgeModContainer@11bfd751, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/coroutil-forge-1.20.1-1.3.7.jar#257!/=fuzs.puzzleslib.impl.core.ForgeModContainer@29519337, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/DustrialDecor-1.3.5-1.20.jar#264!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2152fde5, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sophisticatedcore-1.20.1-0.6.22.611.jar#345!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d58dc61, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/WI-Zoom-1.5-MC1.20.1-Forge.jar#363!/=fuzs.puzzleslib.impl.core.ForgeModContainer@32328dc4, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/lostcities-1.20-7.1.8.jar#304!/=fuzs.puzzleslib.impl.core.ForgeModContainer@17df689e, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/alexsmobs-1.22.8.jar#235!/=fuzs.puzzleslib.impl.core.ForgeModContainer@21540255, /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#374!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3a7469ca, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/InsaneLib-1.13.5-mc1.20.1.jar#295!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1c8e8fed, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.7.jar#296!/=fuzs.puzzleslib.impl.core.ForgeModContainer@70f98f7a, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar#312!/=fuzs.puzzleslib.impl.core.ForgeModContainer@713e7d9a, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/pointblank-1.20.1-1.5.5.jar#325!/=fuzs.puzzleslib.impl.core.ForgeModContainer@681d704e, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/comforts-forge-6.3.5+1.20.1.jar#255!/=fuzs.puzzleslib.impl.core.ForgeModContainer@846b47, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/fastpaintings-1.20-1.2.7.jar#280!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3c3ab672, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/athena-forge-1.20.1-3.1.2.jar#240!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3e6acec2, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/entity_model_features_forge_1.20.1-2.0.2.jar#273!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3d764641, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar#250!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1e8bccfb, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#344!/=fuzs.puzzleslib.impl.core.ForgeModContainer@77eb607e, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#364!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1f1fbc9f, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/create_netherless-1.20.1-1.3.jar#259!/=fuzs.puzzleslib.impl.core.ForgeModContainer@10d4b573, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/dummmmmmy-1.20-1.8.17b.jar#263!/=fuzs.puzzleslib.impl.core.ForgeModContainer@50785f86, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/table_top_craft-1.20.1-6.1.2.jar#351!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7c3c3d67, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/JustEnoughResources-1.20.1-1.4.0.247.jar#298!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1e258d3b, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/propertymodifier-1.20.1-0.1-all.jar#328!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2b6fcca1, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.33.jar#357!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39f93225, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#262!/=fuzs.puzzleslib.impl.core.ForgeModContainer@24b3f778, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/packetfixer-forge-1.4.2-1.19-to-1.20.1.jar#320!/=fuzs.puzzleslib.impl.core.ForgeModContainer@164dea80, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#279!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4392362c, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Better Mob Food - Version 1.0.1 (Beta).jar#245!/=fuzs.puzzleslib.impl.core.ForgeModContainer@338a4c61, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/collective-1.20.1-7.61.jar#253!/=fuzs.puzzleslib.impl.core.ForgeModContainer@839755f, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/comforts-forge-6.3.5+1.20.1.jar#255_/META-INF/jarjar/spectrelib-forge-0.13.15+1.20.1.jar#474!/=fuzs.puzzleslib.impl.core.ForgeModContainer@71d99732, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/moonlight-1.20-2.11.37-forge.jar#310!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2328ec73, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar#311!/=fuzs.puzzleslib.impl.core.ForgeModContainer@42a05533, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Enhanced_Celestials-forge-1.20.1-5.0.0.4.jar#271!/=fuzs.puzzleslib.impl.core.ForgeModContainer@17053b5, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/CorgiLib-forge-1.20.1-4.0.1.1.jar#256!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3cad24ae, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/flan-1.20.1-1.10.4-forge.jar#283!/=fuzs.puzzleslib.impl.core.ForgeModContainer@58021c3c, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar#260!/=fuzs.puzzleslib.impl.core.ForgeModContainer@18cbc3c2, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ToolBelt-1.20.1-1.20.01.jar#356!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1b25d695, /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#369!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4ef8090b, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Wegotrunners0.6b1.20.1[CONFIG FILE UPDATE].jar#362!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d31f14, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/chat_heads-0.12.3-forge-1.20.jar#249!/=fuzs.puzzleslib.impl.core.ForgeModContainer@404009df, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#324!/=fuzs.puzzleslib.impl.core.ForgeModContainer@75e4fe3c, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/notenoughanimations-forge-1.7.4-mc1.20.1.jar#317!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7bda01da, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/journeymap-1.20.1-5.10.3-forge.jar#297!/=fuzs.puzzleslib.impl.core.ForgeModContainer@65ef9a0a, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/incontrol-1.20-9.2.6.jar#294!/=fuzs.puzzleslib.impl.core.ForgeModContainer@25216999, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#261!/=fuzs.puzzleslib.impl.core.ForgeModContainer@77e6761f, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ftb-library-forge-2001.2.2.jar#286!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5c997de8, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/MaxArmory_1.20.1_1.1.2.jar#308!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45bf93bb, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Steam_Rails-1.6.4+forge-mc1.20.1.jar#348!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6b7c4734, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/architectury-9.2.14-forge.jar#239!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2f6e92ca, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#258!/=fuzs.puzzleslib.impl.core.ForgeModContainer@380fdcf2, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/auudio_forge_1.0.3_MC_1.19.3.jar#243!/=fuzs.puzzleslib.impl.core.ForgeModContainer@114b203, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/cleanswing-1.20-1.5.jar#251!/=fuzs.puzzleslib.impl.core.ForgeModContainer@8d810f2, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ShoulderSurfing-Forge-1.20.1-4.3.0.jar#339!/=fuzs.puzzleslib.impl.core.ForgeModContainer@537b3be1, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Overworld Netherite ore 2.3 1.20.1 Forge.jar#319!/=fuzs.puzzleslib.impl.core.ForgeModContainer@15d58530, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/responsiveshields-2.3-mc1.18-19-20.x.jar#335!/=fuzs.puzzleslib.impl.core.ForgeModContainer@31f5b923, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/experimentalsettingsdisabler-1.20.1-3.0.jar#276!/=fuzs.puzzleslib.impl.core.ForgeModContainer@79e2606f, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/marbledsarsenal-1.20.1-2.2.0.jar#307!/=fuzs.puzzleslib.impl.core.ForgeModContainer@734cf881, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/letmedespawn-forge-1.20.1-1.20.4-1.2.1.jar#303!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4a890fdd, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar#366!/=fuzs.puzzleslib.impl.core.ForgeModContainer@56299b0e, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/firstjoinmessage-1.20.1-3.5.jar#282!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3ca278bc, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/mobsunscreen-forge-1.20.1-3.1.1.jar#309!/=fuzs.puzzleslib.impl.core.ForgeModContainer@283e1759, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Extra Zombie Drops 1.20.1 v4.jar#277!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2acb1264, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/BadMobs-1.20.1-19.0.2.jar#244!/=fuzs.puzzleslib.impl.core.ForgeModContainer@30a01dd8, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Philips-Ruins1.20.1-4.0.jar#322!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1f68e4e8, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/betterfpsdist-1.20.1-4.4.jar#246!/=fuzs.puzzleslib.impl.core.ForgeModContainer@47b4ac83, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/improvedmobs-1.20.1-1.12.4-forge.jar#293!/=fuzs.puzzleslib.impl.core.ForgeModContainer@351ede23, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#285!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5604b85, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/propertymodifier-1.20.1-0.1-all.jar#328_/META-INF/jarjar/mixinextras-forge-0.2.0-beta.8.jar#464!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5df7a065, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/dweller_dweller-3.13.1.jar#265!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3f45dfec, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/psg-5.40.1.jar#329!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7c69e1e1, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/AmbientSounds_FORGE_v6.0.1_mc1.20.1.jar#237!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7b52b18a, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar#342!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1bc6c20d, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.25.jar#334!/=fuzs.puzzleslib.impl.core.ForgeModContainer@aedc426, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/gml-4.0.9-all.jar#290_/META-INF/jarjar/cgl-1.20-forge-0.3.3.jar#479!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39b85a73, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#330_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#458!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5788722f, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar#343_/META-INF/jars/fabric-api-base-0.4.31+ef105b4977.jar#450!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7a730479, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/embeddiumplus-1.20.1-v1.2.13.jar#269!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1e5b33e5, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/MyServerIsCompatible-1.20-1.0.jar#314!/=fuzs.puzzleslib.impl.core.ForgeModContainer@654b899f, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/structure-expansion-2.0.1-build.11.jar#349!/=fuzs.puzzleslib.impl.core.ForgeModContainer@71468613, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/BetterThirdPerson-Forge-1.20-1.9.0.jar#247!/=fuzs.puzzleslib.impl.core.ForgeModContainer@13f4048e, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ecologics-forge-1.20.1-2.2.0.jar#267!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5477d90e, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/map_atlases-1.20-6.0.7.jar#305!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6dc9a56e, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/starterkit-1.20.1-6.7.jar#347!/=fuzs.puzzleslib.impl.core.ForgeModContainer@287ad0da, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/gml-4.0.9-all.jar#290_/META-INF/jarjar/mod-4.0.9.jar#459!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1b19712f, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/SereneSeasons-1.20.1-9.0.0.46.jar#338!/=fuzs.puzzleslib.impl.core.ForgeModContainer@714c74eb, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar#288!/=fuzs.puzzleslib.impl.core.ForgeModContainer@510e4d79, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/UndergroundBunkers-1.0.3-1.19.2-1.20.4-forge.jar#358!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2f0cab82, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/voicechat-forge-1.20.1-2.5.29.jar#360!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7fcc3745, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#258_/META-INF/jarjar/flywheel-forge-1.20.1-0.6.10-7.jar#487!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d35ff7b, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/EnchantmentDescriptions-Forge-1.20.1-17.0.16.jar#270!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4ef31221, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/immersive_aircraft-1.0.1+1.20.1-forge.jar#292!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4e9e0c6, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#330!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1a819901, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/golemsarefriends-1.20.0-1.0.1.jar#291!/=fuzs.puzzleslib.impl.core.ForgeModContainer@588d630d, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sliceanddice-forge-3.2.0.jar#341!/=fuzs.puzzleslib.impl.core.ForgeModContainer@eb91027, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Satako-7.0.16-1.20.1.jar#337!/=fuzs.puzzleslib.impl.core.ForgeModContainer@459d2ee6, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/structure_gel-1.20.1-2.16.2.jar#350!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5342eec5, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/rrls-4.0.6.1+mc1.20.1-forge.jar#336!/=fuzs.puzzleslib.impl.core.ForgeModContainer@60e47aab, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/no dimensions.jar#315!/=fuzs.puzzleslib.impl.core.ForgeModContainer@261a66b8, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/oculus-mc1.20.1-1.6.15a.jar#318!/=fuzs.puzzleslib.impl.core.ForgeModContainer@adc8683, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar#331!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4eac65db, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Atlas Lib-1.20.1-1.1.12.jar#241!/=fuzs.puzzleslib.impl.core.ForgeModContainer@dde6f87, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/appleskin-forge-mc1.20.1-2.5.1.jar#238!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7884f722, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sound-physics-remastered-forge-1.20.1-1.4.2.jar#346!/=fuzs.puzzleslib.impl.core.ForgeModContainer@16029e2f, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Pehkui-3.8.2+1.20.1-forge.jar#321!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3b2db389, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.6.jar#289!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45f1413c, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/combatroll-forge-1.3.2+1.20.1.jar#254!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1a139347, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/justzoom_forge_1.0.2_MC_1.20.1.jar#299!/=fuzs.puzzleslib.impl.core.ForgeModContainer@186295cc, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Terralith_1.20_v2.5.1.jar#354!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4e85dcb2, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#326!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1b28cff, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/tenshilib-1.20.1-1.7.6-forge.jar#353!/=fuzs.puzzleslib.impl.core.ForgeModContainer@73dbe25, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#252!/=fuzs.puzzleslib.impl.core.ForgeModContainer@bfd97fb, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/entityculling-forge-1.6.6-mc1.20.1.jar#275!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6bfdaa7a, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/eatinganimation-1.20-5.0.0.jar#266!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7e3d168e, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar#365!/=fuzs.puzzleslib.impl.core.ForgeModContainer@149b53fa, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Mutants Buff 1.5.3 - 1.20.1.jar#313!/=fuzs.puzzleslib.impl.core.ForgeModContainer@73be4cdd, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/tacz-1.20.1-1.0.2-release.jar#352!/=fuzs.puzzleslib.impl.core.ForgeModContainer@751686aa, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar#301!/=fuzs.puzzleslib.impl.core.ForgeModContainer@638977e0, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/embeddium-0.3.19+mc1.20.1-all.jar#268!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2dc3ece8, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/marbledsapi-1.20.1-1.0.7.jar#306!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c1a8529, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/fm_audio_extension_forge_1.1.3_MC_1.20.1.jar#284!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d7865d6, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Pillagers Gun-1.20.1-forge-1.3.0.jar#323!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45e639ee, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/kotlinforforge-4.11.0-all.jar#302_/META-INF/jarjar/kffmod-4.11.0.jar#472!/=fuzs.puzzleslib.impl.core.ForgeModContainer@77f03916, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar#272!/=fuzs.puzzleslib.impl.core.ForgeModContainer@fbbd90c, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/RapidLeafDecay-1.20.1-2.0.2.jar#332!/=fuzs.puzzleslib.impl.core.ForgeModContainer@21c34bf8, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#367!/=fuzs.puzzleslib.impl.core.ForgeModContainer@559e3f67, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.2.13.jar#248!/=fuzs.puzzleslib.impl.core.ForgeModContainer@23d0944b, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/fancymenu_forge_2.14.9-3_MC_1.20.1.jar#278!/=fuzs.puzzleslib.impl.core.ForgeModContainer@72f24a84, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/no-ruined-nether-portals-1.0.jar#316!/=fuzs.puzzleslib.impl.core.ForgeModContainer@49d543a9, /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/The-Hordes-1.20.1-1.5.3a.jar#355!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6d9428f3}
+[01Apr2025 19:23:10.435] [main/INFO] [Puzzles Lib/]: Scheme for securitycraft: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar#234!/
+[01Apr2025 19:23:10.435] [main/INFO] [Puzzles Lib/]: Scheme for simpleshops: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/simpleshops-1.2.2.jar#340!/
+[01Apr2025 19:23:10.436] [main/INFO] [Puzzles Lib/]: Scheme for ambientenvironment: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar#236!/
+[01Apr2025 19:23:10.436] [main/INFO] [Puzzles Lib/]: Scheme for regrowth: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/regrowth-1.20-46.31.2.jar#333!/
+[01Apr2025 19:23:10.436] [main/INFO] [Puzzles Lib/]: Scheme for ftbteams: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ftb-teams-forge-2001.3.0.jar#287!/
+[01Apr2025 19:23:10.436] [main/INFO] [Puzzles Lib/]: Scheme for projectvibrantjourneys: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/projectvibrantjourneys-1.20.1-6.0.0.jar#327!/
+[01Apr2025 19:23:10.437] [main/INFO] [Puzzles Lib/]: Scheme for automobility: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/automobility-0.4.2+1.20.1-forge.jar#242!/
+[01Apr2025 19:23:10.437] [main/INFO] [Puzzles Lib/]: Scheme for k_turrets: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/K-Turrets-3.0.25-1.20.1.jar#300!/
+[01Apr2025 19:23:10.437] [main/INFO] [Puzzles Lib/]: Scheme for sodiumdynamiclights: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar#343!/
+[01Apr2025 19:23:10.438] [main/INFO] [Puzzles Lib/]: Scheme for walkietalkie: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/walkietalkie-forge-1.20.1-1.3.0.jar#361!/
+[01Apr2025 19:23:10.438] [main/INFO] [Puzzles Lib/]: Scheme for entity_texture_features: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/entity_texture_features_forge_1.20.1-6.1.1.jar#274!/
+[01Apr2025 19:23:10.439] [main/INFO] [Puzzles Lib/]: Scheme for ferritecore: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar#281!/
+[01Apr2025 19:23:10.439] [main/INFO] [Puzzles Lib/]: Scheme for coroutil: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/coroutil-forge-1.20.1-1.3.7.jar#257!/
+[01Apr2025 19:23:10.439] [main/INFO] [Puzzles Lib/]: Scheme for dustrial_decor: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/DustrialDecor-1.3.5-1.20.jar#264!/
+[01Apr2025 19:23:10.439] [main/INFO] [Puzzles Lib/]: Scheme for sophisticatedcore: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sophisticatedcore-1.20.1-0.6.22.611.jar#345!/
+[01Apr2025 19:23:10.440] [main/INFO] [Puzzles Lib/]: Scheme for wi_zoom: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/WI-Zoom-1.5-MC1.20.1-Forge.jar#363!/
+[01Apr2025 19:23:10.440] [main/INFO] [Puzzles Lib/]: Scheme for lostcities: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/lostcities-1.20-7.1.8.jar#304!/
+[01Apr2025 19:23:10.440] [main/INFO] [Puzzles Lib/]: Scheme for alexsmobs: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/alexsmobs-1.22.8.jar#235!/
+[01Apr2025 19:23:10.440] [main/INFO] [Puzzles Lib/]: Scheme for forge: /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#374!/
+[01Apr2025 19:23:10.441] [main/INFO] [Puzzles Lib/]: Scheme for insanelib: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/InsaneLib-1.13.5-mc1.20.1.jar#295!/
+[01Apr2025 19:23:10.441] [main/INFO] [Puzzles Lib/]: Scheme for jei: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.7.jar#296!/
+[01Apr2025 19:23:10.441] [main/INFO] [Puzzles Lib/]: Scheme for mutantmonsters: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar#312!/
+[01Apr2025 19:23:10.441] [main/INFO] [Puzzles Lib/]: Scheme for pointblank: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/pointblank-1.20.1-1.5.5.jar#325!/
+[01Apr2025 19:23:10.442] [main/INFO] [Puzzles Lib/]: Scheme for comforts: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/comforts-forge-6.3.5+1.20.1.jar#255!/
+[01Apr2025 19:23:10.442] [main/INFO] [Puzzles Lib/]: Scheme for fastpaintings: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/fastpaintings-1.20-1.2.7.jar#280!/
+[01Apr2025 19:23:10.442] [main/INFO] [Puzzles Lib/]: Scheme for athena: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/athena-forge-1.20.1-3.1.2.jar#240!/
+[01Apr2025 19:23:10.442] [main/INFO] [Puzzles Lib/]: Scheme for entity_model_features: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/entity_model_features_forge_1.20.1-2.0.2.jar#273!/
+[01Apr2025 19:23:10.442] [main/INFO] [Puzzles Lib/]: Scheme for citadel: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar#250!/
+[01Apr2025 19:23:10.443] [main/INFO] [Puzzles Lib/]: Scheme for sophisticatedbackpacks: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#344!/
+[01Apr2025 19:23:10.443] [main/INFO] [Puzzles Lib/]: Scheme for yungsapi: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#364!/
+[01Apr2025 19:23:10.443] [main/INFO] [Puzzles Lib/]: Scheme for create_netherless: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/create_netherless-1.20.1-1.3.jar#259!/
+[01Apr2025 19:23:10.443] [main/INFO] [Puzzles Lib/]: Scheme for dummmmmmy: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/dummmmmmy-1.20-1.8.17b.jar#263!/
+[01Apr2025 19:23:10.443] [main/INFO] [Puzzles Lib/]: Scheme for table_top_craft: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/table_top_craft-1.20.1-6.1.2.jar#351!/
+[01Apr2025 19:23:10.444] [main/INFO] [Puzzles Lib/]: Scheme for jeresources: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/JustEnoughResources-1.20.1-1.4.0.247.jar#298!/
+[01Apr2025 19:23:10.444] [main/INFO] [Puzzles Lib/]: Scheme for propertymodifier: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/propertymodifier-1.20.1-0.1-all.jar#328!/
+[01Apr2025 19:23:10.444] [main/INFO] [Puzzles Lib/]: Scheme for travelersbackpack: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.33.jar#357!/
+[01Apr2025 19:23:10.446] [main/INFO] [Puzzles Lib/]: Scheme for curios: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#262!/
+[01Apr2025 19:23:10.447] [main/INFO] [Puzzles Lib/]: Scheme for packetfixer: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/packetfixer-forge-1.4.2-1.19-to-1.20.1.jar#320!/
+[01Apr2025 19:23:10.447] [main/INFO] [Puzzles Lib/]: Scheme for farmersdelight: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#279!/
+[01Apr2025 19:23:10.447] [main/INFO] [Puzzles Lib/]: Scheme for better_mob_food: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Better Mob Food - Version 1.0.1 (Beta).jar#245!/
+[01Apr2025 19:23:10.447] [main/INFO] [Puzzles Lib/]: Scheme for collective: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/collective-1.20.1-7.61.jar#253!/
+[01Apr2025 19:23:10.447] [main/INFO] [Puzzles Lib/]: Scheme for spectrelib: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/comforts-forge-6.3.5+1.20.1.jar#255!/
+[01Apr2025 19:23:10.448] [main/INFO] [Puzzles Lib/]: Scheme for moonlight: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/moonlight-1.20-2.11.37-forge.jar#310!/
+[01Apr2025 19:23:10.448] [main/INFO] [Puzzles Lib/]: Scheme for mousetweaks: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar#311!/
+[01Apr2025 19:23:10.448] [main/INFO] [Puzzles Lib/]: Scheme for enhancedcelestials: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Enhanced_Celestials-forge-1.20.1-5.0.0.4.jar#271!/
+[01Apr2025 19:23:10.448] [main/INFO] [Puzzles Lib/]: Scheme for corgilib: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/CorgiLib-forge-1.20.1-4.0.1.1.jar#256!/
+[01Apr2025 19:23:10.448] [main/INFO] [Puzzles Lib/]: Scheme for flan: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/flan-1.20.1-1.10.4-forge.jar#283!/
+[01Apr2025 19:23:10.448] [main/INFO] [Puzzles Lib/]: Scheme for creativecore: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar#260!/
+[01Apr2025 19:23:10.449] [main/INFO] [Puzzles Lib/]: Scheme for toolbelt: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ToolBelt-1.20.1-1.20.01.jar#356!/
+[01Apr2025 19:23:10.449] [main/INFO] [Puzzles Lib/]: Scheme for minecraft: /workspaces/Apocalipsis-Zombie/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#369!/
+[01Apr2025 19:23:10.449] [main/INFO] [Puzzles Lib/]: Scheme for wegotrunnners: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Wegotrunners0.6b1.20.1[CONFIG FILE UPDATE].jar#362!/
+[01Apr2025 19:23:10.449] [main/INFO] [Puzzles Lib/]: Scheme for chat_heads: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/chat_heads-0.12.3-forge-1.20.jar#249!/
+[01Apr2025 19:23:10.449] [main/INFO] [Puzzles Lib/]: Scheme for playeranimator: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#324!/
+[01Apr2025 19:23:10.450] [main/INFO] [Puzzles Lib/]: Scheme for notenoughanimations: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/notenoughanimations-forge-1.7.4-mc1.20.1.jar#317!/
+[01Apr2025 19:23:10.450] [main/INFO] [Puzzles Lib/]: Scheme for journeymap: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/journeymap-1.20.1-5.10.3-forge.jar#297!/
+[01Apr2025 19:23:10.450] [main/INFO] [Puzzles Lib/]: Scheme for incontrol: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/incontrol-1.20-9.2.6.jar#294!/
+[01Apr2025 19:23:10.450] [main/INFO] [Puzzles Lib/]: Scheme for cupboard: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#261!/
+[01Apr2025 19:23:10.451] [main/INFO] [Puzzles Lib/]: Scheme for ftblibrary: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ftb-library-forge-2001.2.2.jar#286!/
+[01Apr2025 19:23:10.451] [main/INFO] [Puzzles Lib/]: Scheme for max_armory: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/MaxArmory_1.20.1_1.1.2.jar#308!/
+[01Apr2025 19:23:10.452] [main/INFO] [Puzzles Lib/]: Scheme for railways: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Steam_Rails-1.6.4+forge-mc1.20.1.jar#348!/
+[01Apr2025 19:23:10.452] [main/INFO] [Puzzles Lib/]: Scheme for architectury: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/architectury-9.2.14-forge.jar#239!/
+[01Apr2025 19:23:10.452] [main/INFO] [Puzzles Lib/]: Scheme for create: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#258!/
+[01Apr2025 19:23:10.452] [main/INFO] [Puzzles Lib/]: Scheme for auudio: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/auudio_forge_1.0.3_MC_1.19.3.jar#243!/
+[01Apr2025 19:23:10.453] [main/INFO] [Puzzles Lib/]: Scheme for cleanswing: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/cleanswing-1.20-1.5.jar#251!/
+[01Apr2025 19:23:10.453] [main/INFO] [Puzzles Lib/]: Scheme for shouldersurfing: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ShoulderSurfing-Forge-1.20.1-4.3.0.jar#339!/
+[01Apr2025 19:23:10.453] [main/INFO] [Puzzles Lib/]: Scheme for overworld_netherite_ore: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Overworld Netherite ore 2.3 1.20.1 Forge.jar#319!/
+[01Apr2025 19:23:10.453] [main/INFO] [Puzzles Lib/]: Scheme for responsiveshields: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/responsiveshields-2.3-mc1.18-19-20.x.jar#335!/
+[01Apr2025 19:23:10.454] [main/INFO] [Puzzles Lib/]: Scheme for experimentalsettingsdisabler: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/experimentalsettingsdisabler-1.20.1-3.0.jar#276!/
+[01Apr2025 19:23:10.454] [main/INFO] [Puzzles Lib/]: Scheme for marbledsarsenal: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/marbledsarsenal-1.20.1-2.2.0.jar#307!/
+[01Apr2025 19:23:10.454] [main/INFO] [Puzzles Lib/]: Scheme for letmedespawn: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/letmedespawn-forge-1.20.1-1.20.4-1.2.1.jar#303!/
+[01Apr2025 19:23:10.454] [main/INFO] [Puzzles Lib/]: Scheme for bettermineshafts: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar#366!/
+[01Apr2025 19:23:10.454] [main/INFO] [Puzzles Lib/]: Scheme for firstjoinmessage: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/firstjoinmessage-1.20.1-3.5.jar#282!/
+[01Apr2025 19:23:10.455] [main/INFO] [Puzzles Lib/]: Scheme for mobsunscreen: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/mobsunscreen-forge-1.20.1-3.1.1.jar#309!/
+[01Apr2025 19:23:10.455] [main/INFO] [Puzzles Lib/]: Scheme for extra_zombie_drops: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Extra Zombie Drops 1.20.1 v4.jar#277!/
+[01Apr2025 19:23:10.455] [main/INFO] [Puzzles Lib/]: Scheme for badmobs: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/BadMobs-1.20.1-19.0.2.jar#244!/
+[01Apr2025 19:23:10.455] [main/INFO] [Puzzles Lib/]: Scheme for philipsruins: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Philips-Ruins1.20.1-4.0.jar#322!/
+[01Apr2025 19:23:10.456] [main/INFO] [Puzzles Lib/]: Scheme for betterfpsdist: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/betterfpsdist-1.20.1-4.4.jar#246!/
+[01Apr2025 19:23:10.456] [main/INFO] [Puzzles Lib/]: Scheme for improvedmobs: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/improvedmobs-1.20.1-1.12.4-forge.jar#293!/
+[01Apr2025 19:23:10.456] [main/INFO] [Puzzles Lib/]: Scheme for framework: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#285!/
+[01Apr2025 19:23:10.456] [main/INFO] [Puzzles Lib/]: Scheme for mixinextras: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/propertymodifier-1.20.1-0.1-all.jar#328!/
+[01Apr2025 19:23:10.456] [main/INFO] [Puzzles Lib/]: Scheme for dweller_dweller: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/dweller_dweller-3.13.1.jar#265!/
+[01Apr2025 19:23:10.457] [main/INFO] [Puzzles Lib/]: Scheme for psg: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/psg-5.40.1.jar#329!/
+[01Apr2025 19:23:10.457] [main/INFO] [Puzzles Lib/]: Scheme for ambientsounds: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/AmbientSounds_FORGE_v6.0.1_mc1.20.1.jar#237!/
+[01Apr2025 19:23:10.457] [main/INFO] [Puzzles Lib/]: Scheme for smoothboot: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar#342!/
+[01Apr2025 19:23:10.458] [main/INFO] [Puzzles Lib/]: Scheme for resourcefullib: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.25.jar#334!/
+[01Apr2025 19:23:10.458] [main/INFO] [Puzzles Lib/]: Scheme for commongroovylibrary: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/gml-4.0.9-all.jar#290!/
+[01Apr2025 19:23:10.459] [main/INFO] [Puzzles Lib/]: Scheme for puzzlesaccessapi: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#330!/
+[01Apr2025 19:23:10.460] [main/INFO] [Puzzles Lib/]: Scheme for fabric_api_base: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar#343!/
+[01Apr2025 19:23:10.460] [main/INFO] [Puzzles Lib/]: Scheme for embeddiumplus: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/embeddiumplus-1.20.1-v1.2.13.jar#269!/
+[01Apr2025 19:23:10.460] [main/INFO] [Puzzles Lib/]: Scheme for myserveriscompatible: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/MyServerIsCompatible-1.20-1.0.jar#314!/
+[01Apr2025 19:23:10.460] [main/INFO] [Puzzles Lib/]: Scheme for structureexpansion: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/structure-expansion-2.0.1-build.11.jar#349!/
+[01Apr2025 19:23:10.461] [main/INFO] [Puzzles Lib/]: Scheme for betterthirdperson: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/BetterThirdPerson-Forge-1.20-1.9.0.jar#247!/
+[01Apr2025 19:23:10.461] [main/INFO] [Puzzles Lib/]: Scheme for ecologics: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/ecologics-forge-1.20.1-2.2.0.jar#267!/
+[01Apr2025 19:23:10.461] [main/INFO] [Puzzles Lib/]: Scheme for map_atlases: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/map_atlases-1.20-6.0.7.jar#305!/
+[01Apr2025 19:23:10.461] [main/INFO] [Puzzles Lib/]: Scheme for starterkit: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/starterkit-1.20.1-6.7.jar#347!/
+[01Apr2025 19:23:10.461] [main/INFO] [Puzzles Lib/]: Scheme for gml: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/gml-4.0.9-all.jar#290!/
+[01Apr2025 19:23:10.461] [main/INFO] [Puzzles Lib/]: Scheme for sereneseasons: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/SereneSeasons-1.20.1-9.0.0.46.jar#338!/
+[01Apr2025 19:23:10.462] [main/INFO] [Puzzles Lib/]: Scheme for gamemenuremovegfarb: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar#288!/
+[01Apr2025 19:23:10.462] [main/INFO] [Puzzles Lib/]: Scheme for underground_bunkers: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/UndergroundBunkers-1.0.3-1.19.2-1.20.4-forge.jar#358!/
+[01Apr2025 19:23:10.462] [main/INFO] [Puzzles Lib/]: Scheme for voicechat: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/voicechat-forge-1.20.1-2.5.29.jar#360!/
+[01Apr2025 19:23:10.463] [main/INFO] [Puzzles Lib/]: Scheme for flywheel: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#258!/
+[01Apr2025 19:23:10.463] [main/INFO] [Puzzles Lib/]: Scheme for enchdesc: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/EnchantmentDescriptions-Forge-1.20.1-17.0.16.jar#270!/
+[01Apr2025 19:23:10.463] [main/INFO] [Puzzles Lib/]: Scheme for immersive_aircraft: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/immersive_aircraft-1.0.1+1.20.1-forge.jar#292!/
+[01Apr2025 19:23:10.463] [main/INFO] [Puzzles Lib/]: Scheme for puzzleslib: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#330!/
+[01Apr2025 19:23:10.463] [main/INFO] [Puzzles Lib/]: Scheme for golemsarefriends: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/golemsarefriends-1.20.0-1.0.1.jar#291!/
+[01Apr2025 19:23:10.464] [main/INFO] [Puzzles Lib/]: Scheme for sliceanddice: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sliceanddice-forge-3.2.0.jar#341!/
+[01Apr2025 19:23:10.464] [main/INFO] [Puzzles Lib/]: Scheme for satako: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Satako-7.0.16-1.20.1.jar#337!/
+[01Apr2025 19:23:10.465] [main/INFO] [Puzzles Lib/]: Scheme for structure_gel: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/structure_gel-1.20.1-2.16.2.jar#350!/
+[01Apr2025 19:23:10.465] [main/INFO] [Puzzles Lib/]: Scheme for rrls: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/rrls-4.0.6.1+mc1.20.1-forge.jar#336!/
+[01Apr2025 19:23:10.465] [main/INFO] [Puzzles Lib/]: Scheme for no_portals: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/no dimensions.jar#315!/
+[01Apr2025 19:23:10.465] [main/INFO] [Puzzles Lib/]: Scheme for oculus: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/oculus-mc1.20.1-1.6.15a.jar#318!/
+[01Apr2025 19:23:10.465] [main/INFO] [Puzzles Lib/]: Scheme for radium: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar#331!/
+[01Apr2025 19:23:10.466] [main/INFO] [Puzzles Lib/]: Scheme for atlaslib: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Atlas Lib-1.20.1-1.1.12.jar#241!/
+[01Apr2025 19:23:10.466] [main/INFO] [Puzzles Lib/]: Scheme for appleskin: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/appleskin-forge-mc1.20.1-2.5.1.jar#238!/
+[01Apr2025 19:23:10.466] [main/INFO] [Puzzles Lib/]: Scheme for sound_physics_remastered: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/sound-physics-remastered-forge-1.20.1-1.4.2.jar#346!/
+[01Apr2025 19:23:10.466] [main/INFO] [Puzzles Lib/]: Scheme for pehkui: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Pehkui-3.8.2+1.20.1-forge.jar#321!/
+[01Apr2025 19:23:10.466] [main/INFO] [Puzzles Lib/]: Scheme for geckolib: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.6.jar#289!/
+[01Apr2025 19:23:10.467] [main/INFO] [Puzzles Lib/]: Scheme for combatroll: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/combatroll-forge-1.3.2+1.20.1.jar#254!/
+[01Apr2025 19:23:10.468] [main/INFO] [Puzzles Lib/]: Scheme for justzoom: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/justzoom_forge_1.0.2_MC_1.20.1.jar#299!/
+[01Apr2025 19:23:10.468] [main/INFO] [Puzzles Lib/]: Scheme for terralith: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Terralith_1.20_v2.5.1.jar#354!/
+[01Apr2025 19:23:10.468] [main/INFO] [Puzzles Lib/]: Scheme for polymorph: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#326!/
+[01Apr2025 19:23:10.469] [main/INFO] [Puzzles Lib/]: Scheme for tenshilib: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/tenshilib-1.20.1-1.7.6-forge.jar#353!/
+[01Apr2025 19:23:10.469] [main/INFO] [Puzzles Lib/]: Scheme for cloth_config: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#252!/
+[01Apr2025 19:23:10.469] [main/INFO] [Puzzles Lib/]: Scheme for entityculling: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/entityculling-forge-1.6.6-mc1.20.1.jar#275!/
+[01Apr2025 19:23:10.469] [main/INFO] [Puzzles Lib/]: Scheme for eatinganimation: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/eatinganimation-1.20-5.0.0.jar#266!/
+[01Apr2025 19:23:10.470] [main/INFO] [Puzzles Lib/]: Scheme for betterdungeons: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar#365!/
+[01Apr2025 19:23:10.470] [main/INFO] [Puzzles Lib/]: Scheme for mutantsbuff: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Mutants Buff 1.5.3 - 1.20.1.jar#313!/
+[01Apr2025 19:23:10.470] [main/INFO] [Puzzles Lib/]: Scheme for tacz: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/tacz-1.20.1-1.0.2-release.jar#352!/
+[01Apr2025 19:23:10.470] [main/INFO] [Puzzles Lib/]: Scheme for konkrete: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar#301!/
+[01Apr2025 19:23:10.470] [main/INFO] [Puzzles Lib/]: Scheme for embeddium: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/embeddium-0.3.19+mc1.20.1-all.jar#268!/
+[01Apr2025 19:23:10.471] [main/INFO] [Puzzles Lib/]: Scheme for marbledsapi: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/marbledsapi-1.20.1-1.0.7.jar#306!/
+[01Apr2025 19:23:10.471] [main/INFO] [Puzzles Lib/]: Scheme for fmextension_audio: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/fm_audio_extension_forge_1.1.3_MC_1.20.1.jar#284!/
+[01Apr2025 19:23:10.471] [main/INFO] [Puzzles Lib/]: Scheme for pillagers_gun: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Pillagers Gun-1.20.1-forge-1.3.0.jar#323!/
+[01Apr2025 19:23:10.471] [main/INFO] [Puzzles Lib/]: Scheme for kotlinforforge: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/kotlinforforge-4.11.0-all.jar#302!/
+[01Apr2025 19:23:10.471] [main/INFO] [Puzzles Lib/]: Scheme for enhancedvisuals: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar#272!/
+[01Apr2025 19:23:10.472] [main/INFO] [Puzzles Lib/]: Scheme for rapid_leaf_decay: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/RapidLeafDecay-1.20.1-2.0.2.jar#332!/
+[01Apr2025 19:23:10.472] [main/INFO] [Puzzles Lib/]: Scheme for betterstrongholds: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#367!/
+[01Apr2025 19:23:10.472] [main/INFO] [Puzzles Lib/]: Scheme for bookshelf: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.2.13.jar#248!/
+[01Apr2025 19:23:10.472] [main/INFO] [Puzzles Lib/]: Scheme for fancymenu: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/fancymenu_forge_2.14.9-3_MC_1.20.1.jar#278!/
+[01Apr2025 19:23:10.472] [main/INFO] [Puzzles Lib/]: Scheme for no_ruined_nether_portals: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/no-ruined-nether-portals-1.0.jar#316!/
+[01Apr2025 19:23:10.473] [main/INFO] [Puzzles Lib/]: Scheme for hordes: /workspaces/Apocalipsis-Zombie/servidor_minecraft/mods/The-Hordes-1.20.1-1.5.3a.jar#355!/
+[01Apr2025 19:23:10.485] [main/INFO] [Puzzles Lib/]: Loading 141 mods:
+	- alexsmobs 1.22.8
+	- ambientenvironment 11.0.0.1
+	- ambientsounds 6.0.1
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.2.14
+	- athena 3.1.2
+	- atlaslib 1.1.12
+	- automobility 0.4.2+1.20.1-forge
+	- auudio 1.0.3
+	- badmobs 19.0.2
+	- better_mob_food 1.0.0
+	- betterdungeons 1.20-Forge-4.0.4
+	- betterfpsdist 1.20.1-4.4
+	- bettermineshafts 1.20-Forge-4.0.4
+	- betterstrongholds 1.20-Forge-4.0.3
+	- betterthirdperson 1.9.0
+	- bookshelf 20.2.13
+	- chat_heads 0.12.3
+	- citadel 2.5.4
+	- cleanswing 1.20-1.5
+	- cloth_config 11.1.118
+	- collective 7.61
+	- combatroll 1.3.2+1.20.1
+	- comforts 6.3.5+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- commongroovylibrary 0.3.3
+	- corgilib 4.0.1.1
+	- coroutil 1.20.1-1.3.7
+	- create 0.5.1.f
+		\-- flywheel 0.6.10-7
+	- create_netherless 1.3.0
+	- creativecore 2.11.30
+	- cupboard 1.20.1-2.6
+	- curios 5.9.1+1.20.1
+	- dummmmmmy 1.20-1.8.17b
+	- dustrial_decor 1.3.2
+	- dweller_dweller 3.13.1
+	- eatinganimation 5.0.0
+	- ecologics 2.2.0
+	- embeddium 0.3.19+mc1.20.1
+		\-- rubidium 0.7.1
+	- embeddiumplus 1.2.13
+	- enchdesc 17.0.16
+	- enhancedcelestials 5.0.0.4
+	- enhancedvisuals 1.8.1
+	- entity_model_features 2.0.2
+	- entity_texture_features 6.1.1
+	- entityculling 1.6.6
+	- experimentalsettingsdisabler 3.0
+	- extra_zombie_drops 1.0.0
+	- fancymenu 2.14.9
+	- farmersdelight 1.20.1-1.2.4
+	- fastpaintings 1.20-1.2.7
+	- ferritecore 6.0.1
+	- firstjoinmessage 3.5
+	- flan 1.20.1-1.10.4
+	- fmextension_audio 1.1.1
+	- forge 47.3.7
+	- framework 0.7.6
+	- ftblibrary 2001.2.2
+	- ftbteams 2001.3.0
+	- gamemenuremovegfarb 2.1.2
+	- geckolib 4.4.6
+	- gml 4.0.9
+	- golemsarefriends 1.20.0-1.0.1
+	- hordes 1.5.3a
+	- immersive_aircraft 1.0.1+1.20.1
+	- improvedmobs 1.20.1-1.12.4
+	- incontrol 1.20-9.2.6
+	- insanelib 1.13.5
+	- jei 15.3.0.7
+	- jeresources 1.4.0.247
+	- journeymap 5.10.3
+	- justzoom 1.0.2
+	- k_turrets 3.0.25-1.20.1
+	- konkrete 1.8.0
+	- kotlinforforge 4.11.0
+	- letmedespawn 1.2.1
+	- lostcities 1.20-7.1.8
+	- map_atlases 1.20-6.0.7
+	- marbledsapi 1.0.7
+	- marbledsarsenal 2.2.0
+	- max_armory 1.1.2
+	- minecraft 1.20.1
+	- mobsunscreen 3.1.1
+	- moonlight 1.20-2.11.37
+	- mousetweaks 2.25.1
+	- mutantmonsters 8.0.7
+	- mutantsbuff 1.0.0
+	- myserveriscompatible 1.0
+	- no_portals 1.2.1
+	- no_ruined_nether_portals 1.0.0
+	- notenoughanimations 1.7.4
+	- oculus 1.6.15a
+	- overworld_netherite_ore 2.3
+	- packetfixer 1.4.2
+	- pehkui 3.8.2+1.20.1-forge
+	- philipsruins 4.0
+	- pillagers_gun 1.3.0
+	- playeranimator 1.0.2-rc1+1.20
+	- pointblank 1.5.5
+	- polymorph 0.49.5+1.20.1
+	- projectvibrantjourneys 1.20.1-6.0.0
+	- propertymodifier 0.3.3
+		\-- mixinextras 0.2.0-beta.8
+	- psg 4.01
+	- puzzleslib 8.1.20
+		\-- puzzlesaccessapi 8.0.7
+	- radium 0.12.4+git.26c9d8e
+	- railways 1.6.4+forge-mc1.20.1
+	- rapid_leaf_decay 2.0.2
+	- regrowth 46.31.2
+	- resourcefullib 2.1.25
+	- responsiveshields 2.3
+	- rrls 4.0.6.1+mc1.20.1-forge
+	- satako 7.0.16-1.20.1
+	- securitycraft 1.9.10
+	- sereneseasons 9.0.0.46
+	- shouldersurfing 1.20.1-4.3.0
+	- simpleshops 1.2.2
+	- sliceanddice 3.2.0
+	- smoothboot 0.0.4
+	- sodiumdynamiclights 1.0.9
+		\-- fabric_api_base 0.4.31+ef105b4977
+	- sophisticatedbackpacks 3.20.5.1044
+	- sophisticatedcore 0.6.22.611
+	- sound_physics_remastered 1.20.1-1.4.2
+	- starterkit 6.7
+	- structure_gel 2.16.2
+	- structureexpansion 2.0.1-build.11
+	- table_top_craft 1.20.1-6.1.2
+	- tacz 1.0.2
+	- tenshilib 1.20.1-1.7.6
+	- terralith 2.5.1
+	- toolbelt 1.20.01
+	- travelersbackpack 9.1.33
+	- underground_bunkers 1.0.3
+	- voicechat 1.20.1-2.5.29
+	- walkietalkie 1.3.0
+	- wegotrunnners 1.0.0
+	- wi_zoom 1.5-MC1.20.1-Forge
+	- yungsapi 1.20-Forge-4.0.5
+[01Apr2025 19:23:10.517] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Apr2025 19:23:10.603] [main/WARN] [mixin/]: Reference map 'packetfixer-forge-forge-refmap.json' for packetfixer-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Apr2025 19:23:11.901] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[01Apr2025 19:23:11.902] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
+[01Apr2025 19:23:11.915] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[01Apr2025 19:23:14.143] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01Apr2025 19:23:14.422] [main/INFO] [Smooth Boot (Reloaded)/]: Smooth Boot (Reloaded) config initialized
+[01Apr2025 19:23:18.003] [main/WARN] [mixin/]: @Redirect conflict. Skipping securitycraft.mixins.json:camera.ServerPlayerMixin->@Redirect::securitycraft$tick(Lnet/minecraft/server/level/ServerPlayer;DDDFF)V with priority 1100, already redirected by railways-common.mixins.json:conductor_possession.ServerPlayerMixin->@Redirect::railways$securitycraft$tick(Lnet/minecraft/server/level/ServerPlayer;DDDFF)V with priority 1200
+[01Apr2025 19:23:23.066] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
+[01Apr2025 19:23:23.391] [modloading-worker-0/WARN] [auudio/Auudio/]: WARNING: Auudio is a client mod and has no effect when loaded on a server!
+[01Apr2025 19:23:23.443] [modloading-worker-0/INFO] [satako/]: Satako loaded
+[01Apr2025 19:23:23.483] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[01Apr2025 19:23:23.519] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
+[01Apr2025 19:23:23.527] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[01Apr2025 19:23:23.529] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
+[01Apr2025 19:23:23.841] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[01Apr2025 19:23:23.841] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[01Apr2025 19:23:23.841] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[01Apr2025 19:23:23.841] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[01Apr2025 19:23:23.842] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[01Apr2025 19:23:23.842] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[01Apr2025 19:23:23.842] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[01Apr2025 19:23:23.903] [modloading-worker-0/INFO] [hordes/]: Trying to load common config
+[01Apr2025 19:23:23.909] [modloading-worker-0/INFO] [hordes/]: Trying to load client config
+[01Apr2025 19:23:23.915] [modloading-worker-0/INFO] [hordes/]: Hordes data does not exist, generating new files.
+[01Apr2025 19:23:23.929] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/hordes-info.json
+[01Apr2025 19:23:23.930] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/pack.mcmeta
+[01Apr2025 19:23:23.934] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/tags/worldgen/biome/husk_player_spawn_biomes.json
+[01Apr2025 19:23:23.935] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/tags/items/infection_cures.json
+[01Apr2025 19:23:23.937] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/tags/entity_types/infection_entities.json
+[01Apr2025 19:23:23.937] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/horde_data/tables/skeletons.json
+[01Apr2025 19:23:23.938] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/horde_data/tables/mixed_mobs.json
+[01Apr2025 19:23:23.940] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/horde_data/tables/illagers.json
+[01Apr2025 19:23:23.940] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/horde_data/tables/drowned.json
+[01Apr2025 19:23:23.941] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/horde_data/tables/default.json
+[01Apr2025 19:23:23.941] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/horde_data/scripts/default.json
+[01Apr2025 19:23:23.942] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/horde_data/infection_conversions.json
+[01Apr2025 19:23:23.944] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/horde_data/immunity_items.json
+[01Apr2025 19:23:23.944] [modloading-worker-0/INFO] [hordes/]: Copied file config_defaults/data/hordes/horde_data/immune_wearables.json
+[01Apr2025 19:23:23.944] [modloading-worker-0/INFO] [hordes/]: Generated data files.
+[01Apr2025 19:23:24.063] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Apocalipsis-Zombie/servidor_minecraft/config/jeresources.toml is not correct. Correcting
+[01Apr2025 19:23:24.068] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerColumn was corrected from null to its default, 4. 
+[01Apr2025 19:23:24.069] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerRow was corrected from null to its default, 4. 
+[01Apr2025 19:23:24.072] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diyData was corrected from null to its default, true. 
+[01Apr2025 19:23:24.073] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showDevData was corrected from null to its default, false. 
+[01Apr2025 19:23:24.076] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantsBlacklist was corrected from null to its default, [flimflam, soulBound]. 
+[01Apr2025 19:23:24.076] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hiddenTabs was corrected from null to its default, []. 
+[01Apr2025 19:23:24.077] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Apocalipsis-Zombie/servidor_minecraft/config/k_turrets-common.toml is not correct. Correcting
+[01Apr2025 19:23:24.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Apr2025 19:23:24.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimensionsBlacklist was corrected from null to its default, [-11]. 
+[01Apr2025 19:23:24.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common.Turret and drone projectile speed was corrected from null to its default, 50.0. 
+[01Apr2025 19:23:24.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disableLootManagerReloading was corrected from null to its default, false. 
+[01Apr2025 19:23:24.078] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common.Target list exceptions was corrected from null to its default, [minecraft:zombified_piglin]. 
+[01Apr2025 19:23:24.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Common.Set ownership automatically was corrected from null to its default, true. 
+[01Apr2025 19:23:24.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Apr2025 19:23:24.080] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Arrow turret was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Apr2025 19:23:24.081] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Arrow turret.Health was corrected from null to its default, 60.0. 
+[01Apr2025 19:23:24.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Arrow turret.Range was corrected from null to its default, 32.0. 
+[01Apr2025 19:23:24.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Arrow turret.Armor was corrected from null to its default, 3.0. 
+[01Apr2025 19:23:24.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Arrow turret.Fire rate was corrected from null to its default, 20. 
+[01Apr2025 19:23:24.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Arrow turret.Base damage was corrected from null to its default, 6. 
+[01Apr2025 19:23:24.083] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Arrow turret.Use custom ammo was corrected from null to its default, false. 
+[01Apr2025 19:23:24.084] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Arrow turret.Ammo was corrected from null to its default, minecraft:arrow. 
+[01Apr2025 19:23:24.084] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Bullet turret was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Apr2025 19:23:24.084] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Bullet turret.Health was corrected from null to its default, 60.0. 
+[01Apr2025 19:23:24.084] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Bullet turret.Range was corrected from null to its default, 32.0. 
+[01Apr2025 19:23:24.085] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Bullet turret.Armor was corrected from null to its default, 3.0. 
+[01Apr2025 19:23:24.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Bullet turret.Fire rate was corrected from null to its default, 20. 
+[01Apr2025 19:23:24.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Bullet turret.Iron bullet damage was corrected from null to its default, 8. 
+[01Apr2025 19:23:24.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Bullet turret.Gold bullet damage was corrected from null to its default, 7. 
+[01Apr2025 19:23:24.086] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Bullet turret.Use custom ammo was corrected from null to its default, false. 
+[01Apr2025 19:23:24.087] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Bullet turret.Ammo was corrected from null to its default, minecraft:iron_nugget. 
+[01Apr2025 19:23:24.088] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Fire charge turret was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Apr2025 19:23:24.088] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Fire charge turret.Health was corrected from null to its default, 60.0. 
+[01Apr2025 19:23:24.088] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Fire charge turret.Range was corrected from null to its default, 32.0. 
+[01Apr2025 19:23:24.088] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Fire charge turret.Armor was corrected from null to its default, 3.0. 
+[01Apr2025 19:23:24.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Fire charge turret.Fire rate was corrected from null to its default, 20. 
+[01Apr2025 19:23:24.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Fire charge turret.Damage was corrected from null to its default, 6. 
+[01Apr2025 19:23:24.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Fire charge turret.Ammo was corrected from null to its default, k_turrets:explosive_powder. 
+[01Apr2025 19:23:24.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Brick turret was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Apr2025 19:23:24.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Brick turret.Use custom ammo was corrected from null to its default, false. 
+[01Apr2025 19:23:24.091] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Brick turret.Ammo was corrected from null to its default, minecraft:brick. 
+[01Apr2025 19:23:24.092] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Brick turret.Health was corrected from null to its default, 60.0. 
+[01Apr2025 19:23:24.092] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Brick turret.Range was corrected from null to its default, 32.0. 
+[01Apr2025 19:23:24.092] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Brick turret.Armor was corrected from null to its default, 3.0. 
+[01Apr2025 19:23:24.092] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Brick turret.Fire rate was corrected from null to its default, 20. 
+[01Apr2025 19:23:24.093] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Brick turret.Brick damage was corrected from null to its default, 9. 
+[01Apr2025 19:23:24.093] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Brick turret.Nether brick damage was corrected from null to its default, 10. 
+[01Apr2025 19:23:24.093] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Gauss turret was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Apr2025 19:23:24.094] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Gauss turret.Health was corrected from null to its default, 60.0. 
+[01Apr2025 19:23:24.094] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Gauss turret.Range was corrected from null to its default, 32.0. 
+[01Apr2025 19:23:24.096] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Gauss turret.Armor was corrected from null to its default, 3.0. 
+[01Apr2025 19:23:24.097] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Gauss turret.Fire rate was corrected from null to its default, 20. 
+[01Apr2025 19:23:24.097] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Gauss turret.Damage was corrected from null to its default, 12. 
+[01Apr2025 19:23:24.097] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Gauss turret.Ammo was corrected from null to its default, k_turrets:gauss_bullet. 
+[01Apr2025 19:23:24.097] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Cobble turret was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Apr2025 19:23:24.097] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Cobble turret.Health was corrected from null to its default, 60.0. 
+[01Apr2025 19:23:24.098] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Cobble turret.Range was corrected from null to its default, 32.0. 
+[01Apr2025 19:23:24.098] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Cobble turret.Armor was corrected from null to its default, 3.0. 
+[01Apr2025 19:23:24.098] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Cobble turret.Fire rate was corrected from null to its default, 20. 
+[01Apr2025 19:23:24.098] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Cobble turret.Damage was corrected from null to its default, 3. 
+[01Apr2025 19:23:24.098] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Cobble turret.Use custom ammo was corrected from null to its default, false. 
+[01Apr2025 19:23:24.098] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Turret stats.Cobble turret.Ammo was corrected from null to its default, minecraft:cobblestone. 
+[01Apr2025 19:23:24.154] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[01Apr2025 19:23:24.154] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[01Apr2025 19:23:24.192] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[01Apr2025 19:23:24.194] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.19+mc1.20.1-all.jar%23268!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:100) ~[embeddium-0.3.19+mc1.20.1-all.jar%23268!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:41) ~[embeddium-0.3.19+mc1.20.1-all.jar%23268!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23371!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23370!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
@@ -261,73 +448,173 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[30Mar2025 18:25:47.019] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:eletricalclub: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[30Mar2025 18:25:47.025] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:firemodulecombataxe: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[30Mar2025 18:25:47.026] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:combataxe: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[30Mar2025 18:25:47.046] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:rockeyhelmetrecipe: com.google.gson.JsonSyntaxException: Unknown item 'apocalypsenow:officer_chestplate'
-[30Mar2025 18:25:47.065] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:eletricalkatana: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[30Mar2025 18:25:47.073] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:firemodulemachete: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[30Mar2025 18:25:47.086] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:eletricaltaticalmace: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[30Mar2025 18:25:47.086] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:eletricalbaseballbat: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[30Mar2025 18:25:47.087] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:firemoduleironbat: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[30Mar2025 18:25:47.128] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:eletricalmachete: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[30Mar2025 18:25:47.138] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe apocalypsenow:firemodulekatana: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
-[30Mar2025 18:25:47.156] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dynamictrees:guide: com.google.gson.JsonSyntaxException: Missing conditions, expected to find a JsonArray
-[30Mar2025 18:25:47.162] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 11 recipes
-[30Mar2025 18:25:47.263] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement zombiesmore:kaboom: Task Advancement{parentId=zombiesmore:kaboom, display=net.minecraft.advancements.DisplayInfo@46a954b0, rewards=AdvancementRewards{experience=5, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@2de6f64b}, criteria={kaboom_0=net.minecraft.advancements.Criterion@2e7eafa0}, requirements=[[kaboom_0]], sends_telemetry_event=false}
-[30Mar2025 18:25:47.263] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1933 advancements
-[30Mar2025 18:25:47.267] [main/INFO] [placebo/]: Registered 0 additional recipes.
-[30Mar2025 18:25:47.273] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[30Mar2025 18:25:47.276] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[30Mar2025 18:25:47.430] [main/INFO] [placebo/]: Registered 0 gear_sets.
-[30Mar2025 18:25:47.862] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[30Mar2025 18:25:47.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[30Mar2025 18:25:47.863] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[30Mar2025 18:25:47.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30Mar2025 18:25:47.936] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[30Mar2025 18:25:47.978] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[30Mar2025 18:25:48.080] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[30Mar2025 18:25:48.080] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[30Mar2025 18:25:48.080] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[30Mar2025 18:25:48.081] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[30Mar2025 18:25:48.462] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[30Mar2025 18:25:49.065] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[30Mar2025 18:25:49.066] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[30Mar2025 18:25:49.123] [Server thread/WARN] [mixin/]: @Redirect conflict. Skipping servercore.common.mixins.json:optimizations.ticking.chunk.cache.ServerChunkCacheMixin->@Redirect::servercore$noList(I)Ljava/util/ArrayList; with priority 900, already redirected by lithium.mixins.json:alloc.chunk_ticking.ServerChunkManagerMixin->@Redirect::redirectChunksListClone(I)Ljava/util/ArrayList; with priority 1000
-[30Mar2025 18:25:49.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Mar2025 18:25:49.636] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in lithium.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
-[30Mar2025 18:25:51.016] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:25:51.016] [Server thread/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:25:51.296] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:25:51.296] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:25:51.297] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:25:51.297] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Mar2025 18:25:51.634] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[30Mar2025 18:25:52.135] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
-[30Mar2025 18:25:52.608] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2974 ms
-[30Mar2025 18:25:52.609] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.512s)! For help, type "help"
-[30Mar2025 18:25:52.644] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[30Mar2025 18:25:52.645] [Server thread/INFO] [com.muhammedesadcomert.protectmobsfromdaylight.forge.ProtectMobsFromDayLight/]: HELLO from server starting
-[30Mar2025 18:25:52.663] [Server thread/WARN] [ModernFix/]: Dedicated server took 36.105 seconds to load
-[30Mar2025 18:26:11.478] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: meliodas3012[/100.68.241.34:63370] logged in with entity id 313 at (-1277.0122373331894, 83.0, 516.542044044631)
-[30Mar2025 18:26:11.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: meliodas3012 joined the game
-[30Mar2025 18:26:11.745] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:26:11.746] [Server thread/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:26:12.856] [Server thread/INFO] [ping-wheel/]: Channel update: meliodas3012 -> default
-[30Mar2025 18:26:21.161] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:26:21.162] [Server thread/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:26:22.859] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:26:22.860] [Server thread/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:27:26.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Set own game mode to Creative Mode]
-[30Mar2025 18:28:25.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Set own game mode to Survival Mode]
-[30Mar2025 18:34:53.771] [dimthread_server_overworld/INFO] [net.minecraft.server.MinecraftServer/]: meliodas3012 has made the advancement [Best Friends Forever]
-[30Mar2025 18:35:02.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Set own game mode to Creative Mode]
-[30Mar2025 18:35:21.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Set own game mode to Survival Mode]
-[30Mar2025 18:39:36.183] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of meliodas3012) moved wrongly! 0.2745739385483148
-[30Mar2025 18:39:36.240] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Horse (vehicle of meliodas3012) moved wrongly! 0.6724698306752828
-[30Mar2025 18:41:32.779] [Worker-Main-3/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:41:32.781] [Worker-Main-3/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:42:11.259] [Worker-Main-2/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER
-[30Mar2025 18:42:11.259] [Worker-Main-2/WARN] [Radium Class Analysis/]: Radium Class Analysis Error: Class com.ferreusveritas.dynamictrees.block.rooty.RootyBlock cannot be analysed, because getting declared methods crashes with RuntimeException: Attempted to load class net/minecraft/client/color/block/BlockColors for invalid dist DEDICATED_SERVER. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @OnlyIn(Dist.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[30Mar2025 18:48:36.121] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: meliodas3012 lost connection: Disconnected
-[30Mar2025 18:48:36.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: meliodas3012 left the game
+[01Apr2025 19:23:24.202] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_model_features, class traben.entity_model_features.forge.EMFForge
+java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing
+	at traben.entity_model_features.forge.EMFForge.<init>(EMFForge.java:37) ~[entity_model_features_forge_1.20.1-2.0.2.jar%23273!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23371!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23370!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01Apr2025 19:23:24.216] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_texture_features, class traben.entity_texture_features.forge.ETFClientForge
+java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing
+	at traben.entity_texture_features.forge.ETFClientForge.<init>(ETFClientForge.java:40) ~[entity_texture_features_forge_1.20.1-6.1.1.jar%23274!/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23371!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23370!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01Apr2025 19:23:24.298] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.9
+[01Apr2025 19:23:24.508] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[01Apr2025 19:23:24.513] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: oculus, class net.coderbot.iris.Iris
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3373) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3578) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23371!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23370!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[01Apr2025 19:23:24.522] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.61.
+[01Apr2025 19:23:24.581] [modloading-worker-0/INFO] [betterstrongholds/]: Creating directory for additional Better Strongholds configuration at /workspaces/Apocalipsis-Zombie/servidor_minecraft/config/betterstrongholds/forge-1_20
+[01Apr2025 19:23:24.599] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
+[01Apr2025 19:23:24.779] [modloading-worker-0/WARN] [com.cupboard.Cupboard/]: Config cupboard.json not found, recreating default
+[01Apr2025 19:23:24.780] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[01Apr2025 19:23:24.784] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[01Apr2025 19:23:24.915] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[01Apr2025 19:23:24.949] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[01Apr2025 19:23:24.955] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[01Apr2025 19:23:24.957] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[01Apr2025 19:23:24.964] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[01Apr2025 19:23:24.969] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[01Apr2025 19:23:24.971] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
+[01Apr2025 19:23:25.323] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[01Apr2025 19:23:25.323] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[01Apr2025 19:23:25.394] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[01Apr2025 19:23:25.395] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: table_top_craft, class andrews.table_top_craft.TableTopCraft
+java.lang.ExceptionInInitializerError: null
+	at andrews.table_top_craft.util.shader_compat.ShaderCompatHandler.initOculusCompat(ShaderCompatHandler.java:19) ~[table_top_craft-1.20.1-6.1.2.jar%23351!/:1.20.1-6.1.2]
+	at andrews.table_top_craft.TableTopCraft.<init>(TableTopCraft.java:77) ~[table_top_craft-1.20.1-6.1.2.jar%23351!/:1.20.1-6.1.2]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23371!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23370!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.RuntimeException
+	at andrews.table_top_craft.util.shader_compat.ShaderCompatOculus.<clinit>(ShaderCompatOculus.java:27) ~[table_top_craft-1.20.1-6.1.2.jar%23351!/:1.20.1-6.1.2]
+	... 16 more
+[01Apr2025 19:23:25.712] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id walkietalkie:updatewalkietalkie_c2s
+[01Apr2025 19:23:25.715] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id walkietalkie:updatespeaker_c2s
+[01Apr2025 19:23:25.732] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id walkietalkie:activatekeypressed_c2s
+[01Apr2025 19:23:26.831] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[01Apr2025 19:23:26.947] [modloading-worker-0/INFO] [fancymenu/FancyMenu/]: [FANCYMENU] Loading v2.14.9 in server-side mode!
+[01Apr2025 19:23:26.989] [modloading-worker-0/WARN] [fmaudio/FmAudio/]: WARNING: FancyMenu Audio Extension is a client mod and has no effect when loaded on a server!
+[01Apr2025 19:23:27.008] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[01Apr2025 19:23:27.249] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Apocalipsis-Zombie/servidor_minecraft/config/appleskin-client.toml is not correct. Correcting
+[01Apr2025 19:23:27.250] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[01Apr2025 19:23:27.250] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltip was corrected from null to its default, true. 
+[01Apr2025 19:23:27.250] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesInTooltipAlways was corrected from null to its default, true. 
+[01Apr2025 19:23:27.250] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showSaturationHudOverlay was corrected from null to its default, true. 
+[01Apr2025 19:23:27.251] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlay was corrected from null to its default, true. 
+[01Apr2025 19:23:27.251] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodValuesHudOverlayWhenOffhand was corrected from null to its default, true. 
+[01Apr2025 19:23:27.251] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodExhaustionHudUnderlay was corrected from null to its default, true. 
+[01Apr2025 19:23:27.260] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodStatsInDebugOverlay was corrected from null to its default, true. 
+[01Apr2025 19:23:27.260] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showFoodHealthHudOverlay was corrected from null to its default, true. 
+[01Apr2025 19:23:27.260] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showVanillaAnimationsOverlay was corrected from null to its default, true. 
+[01Apr2025 19:23:27.260] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.maxHudOverlayFlashAlpha was corrected from null to its default, 0.65. 
+[01Apr2025 19:23:27.356] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[01Apr2025 19:23:27.413] [modloading-worker-0/INFO] [dev.tonimatas.packetfixer.PacketFixer/]: Packet Fixer has been initialized successfully
+[01Apr2025 19:23:27.807] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[01Apr2025 19:23:28.153] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[01Apr2025 19:23:28.171] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
+[01Apr2025 19:23:28.185] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[01Apr2025 19:23:28.189] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[01Apr2025 19:23:28.189] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[01Apr2025 19:23:28.190] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[01Apr2025 19:23:28.191] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[01Apr2025 19:23:28.192] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
+[01Apr2025 19:23:28.195] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[01Apr2025 19:23:28.196] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[01Apr2025 19:23:28.198] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
+[01Apr2025 19:23:28.821] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 4 errors found
+[01Apr2025 19:23:28.901] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 8d449d45-7515-4070-923e-efa9f68b6fb0
+[01Apr2025 19:23:28.902] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-04-01_19.23.28-fml.txt
+[01Apr2025 19:23:28.916] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID bf66b325-e765-44a8-8f30-3f99f96a5242
+[01Apr2025 19:23:28.922] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Entity Model Features (entity_model_features) has failed to load correctly
+§7java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing,
+	Entity Texture Features (entity_texture_features) has failed to load correctly
+§7java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing,
+	Oculus (oculus) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+	Table Top Craft (table_top_craft) has failed to load correctly
+§7java.lang.ExceptionInInitializerError: null
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.7.jar%23370!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23370!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23370!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23370!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23370!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.7-universal.jar%23374!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23369!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
