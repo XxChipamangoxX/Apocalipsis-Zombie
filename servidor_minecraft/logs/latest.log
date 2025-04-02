@@ -6832,3 +6832,134 @@ com.google.gson.JsonSyntaxException: Unknown item 'projectvibrantjourneys:stripp
 [02Apr2025 02:23:30.365] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 7a88d670-43d0-32dc-8d80-515203d3c42e
 [02Apr2025 02:23:30.366] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player meliodas3012 (7a88d670-43d0-32dc-8d80-515203d3c42e) successfully connected to voice chat
 [02Apr2025 02:26:50.766] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Jeremy_Cuvoy'/4217, l='ServerLevel[negra]', x=-74.27, y=96.00, z=-55.33] died: Zombie Player was shot by Skeleton
+[02Apr2025 02:29:08.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CreeperHunte2068 was doomed to fall by meliodas3012
+[02Apr2025 02:29:08.886] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for CreeperHunte2068 with unique ID travelersbackpack.standard_02.04.2025-02.29.08.dat
+[02Apr2025 02:29:12.721] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[02Apr2025 02:29:15.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Set own game mode to Creative Mode]
+[02Apr2025 02:29:25.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Teleported CreeperHunte2068 to meliodas3012]
+[02Apr2025 02:29:33.618] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['CreeperHunte2068'/6434, l='ServerLevel[negra]', x=-74.50, y=75.07, z=-79.50] died: Zombie Player was shot by meliodas3012
+[02Apr2025 02:30:02.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Set own game mode to Survival Mode]
+[02Apr2025 02:30:58.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Set own game mode to Survival Mode]
+[02Apr2025 02:31:06.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Set own game mode to Creative Mode]
+[02Apr2025 02:35:01.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Set own game mode to Survival Mode]
+[02Apr2025 02:35:29.119] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.220] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.269] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.318] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.373] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.418] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.467] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.566] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.614] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.666] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.865] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.916] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:29.966] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.067] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.118] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.266] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.366] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.417] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.467] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.515] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.568] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.617] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.665] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.715] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.818] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.866] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.916] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:30.967] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.067] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.116] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.167] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.216] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.268] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.368] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.421] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.566] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.616] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.716] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.868] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.917] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:31.966] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.068] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.268] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.317] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.367] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.416] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.466] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.567] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.618] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.667] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.869] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.919] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:32.970] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.069] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.166] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.268] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.366] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.415] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.466] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.568] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.616] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.668] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.717] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.817] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.868] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.918] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:33.968] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.016] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.067] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.117] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.169] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.216] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.269] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.369] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.419] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.468] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.567] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.616] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.666] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.718] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.818] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 was kicked for floating too long!
+[02Apr2025 02:35:34.867] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 lost connection: Timed out
+[02Apr2025 02:35:34.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CreeperHunte2068 left the game
+[02Apr2025 02:35:34.868] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client CreeperHunte2068
+[02Apr2025 02:36:09.520] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@551e7544[id=<null>,name=CreeperHunte2068,properties={},legacy=false] (/100.71.127.83:50238) lost connection: Disconnected
+[02Apr2025 02:36:46.268] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5306811c[id=<null>,name=CreeperHunte2068,properties={},legacy=false] (/100.71.127.83:50263) lost connection: Disconnected
+[02Apr2025 02:37:02.469] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@45c96d3a[id=<null>,name=CreeperHunte2068,properties={},legacy=false] (/100.71.127.83:50276) lost connection: Disconnected

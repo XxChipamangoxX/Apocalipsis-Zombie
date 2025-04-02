@@ -135,7 +135,10 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_beef": "2025-04-02 01:55:29 +0000"
+      "cooked_beef": "2025-04-02 01:55:29 +0000",
+      "bread": "2025-04-02 02:33:16 +0000",
+      "golden_apple": "2025-04-02 02:24:23 +0000",
+      "enchanted_golden_apple": "2025-04-02 02:23:49 +0000"
     },
     "done": false
   },
@@ -171,7 +174,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:bamboo_jungle": "2025-04-02 01:56:58 +0000"
+      "minecraft:bamboo_jungle": "2025-04-02 01:56:58 +0000",
+      "minecraft:lush_caves": "2025-04-02 02:29:13 +0000"
     },
     "done": false
   },
@@ -256,6 +260,12 @@
   "travelersbackpack:recipes/misc/creeper": {
     "criteria": {
       "has_gunpowder": "2025-04-02 02:13:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_horse_armor": "2025-04-02 02:28:37 +0000"
     },
     "done": true
   },
@@ -349,6 +359,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_horse_armor": "2025-04-02 02:28:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/bow": {
     "criteria": {
       "has_string": "2025-04-02 02:12:13 +0000"
@@ -384,6 +400,12 @@
       "has_slime_ball": "2025-04-02 02:12:21 +0000"
     },
     "done": true
+  },
+  "regrowth:rgroot/teardown": {
+    "criteria": {
+      "has_wall": "2025-04-02 02:30:29 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/sticky_piston": {
     "criteria": {
