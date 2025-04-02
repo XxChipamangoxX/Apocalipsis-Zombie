@@ -1,0 +1,130 @@
+{
+  "ecologics:recipes/ecologics/azalea_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2025-04-02 04:18:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-04-02 04:18:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/walnut_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2025-04-02 04:18:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/root": {
+    "criteria": {
+      "useitem": "2025-04-02 04:19:37 +0000"
+    },
+    "done": true
+  },
+  "overworld_netherite_ore:overworld_netherite": {
+    "criteria": {
+      "overworld_netherite_0": "2025-04-02 04:18:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-04-02 04:19:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-04-02 04:18:27 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/coconut_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/flowering_azalea_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-04-02 04:20:48 +0000",
+      "minecraft:ocean": "2025-04-02 04:20:50 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-04-02 04:20:21 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
