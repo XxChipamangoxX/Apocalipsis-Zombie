@@ -1,0 +1,17 @@
+{
+	id: "588cd1b3-5579-3709-b1ae-de26ea0473f0"
+	type: "player"
+	player_name: "Jeremy_Cuvoy"
+	ranks: {
+		588cd1b3-5579-3709-b1ae-de26ea0473f0: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Jeremy_Cuvoy"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF8659"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
