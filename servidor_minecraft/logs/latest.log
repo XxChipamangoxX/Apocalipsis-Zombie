@@ -6766,3 +6766,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'projectvibrantjourneys:stripp
 [02Apr2025 18:51:40.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: The difficulty has been set to Peaceful]
 [02Apr2025 18:51:54.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: The difficulty has been set to Normal]
 [02Apr2025 18:52:12.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: 1 slots of type head have been removed from CreeperHunte2068]
+[02Apr2025 18:52:34.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: 20 slots of type head have been added to CreeperHunte2068]
+[02Apr2025 18:53:04.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: 19 slots of type head have been removed from CreeperHunte2068]
+[02Apr2025 18:54:43.179] [ForkJoinPool.commonPool-worker-4/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: you can craft gunpowder in 2 ways 
+[02Apr2025 18:54:43.179] [ForkJoinPool.commonPool-worker-4/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]:  first make saltpetre with Rotten flash, Potassium and Bone meal
+[02Apr2025 18:54:43.180] [ForkJoinPool.commonPool-worker-4/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: mix saltpetre, sulphur and coal to get a litte of gunpowder
+[02Apr2025 18:54:43.180] [ForkJoinPool.commonPool-worker-4/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: alternatively
+[02Apr2025 18:54:43.180] [ForkJoinPool.commonPool-worker-4/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: mix saltpetre, sulphur, coal and sugar to get more gunpowder 
+[02Apr2025 18:54:43.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <CreeperHunte2068> a
+[02Apr2025 18:55:30.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Config for hordes of type SERVER not found]
+[02Apr2025 18:55:38.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Config for hordes of type COMMON found at hordes-common.toml]
+[02Apr2025 18:55:44.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Config for hordes of type COMMON found at hordes-common.toml]
+[02Apr2025 18:56:04.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [CreeperHunte2068: Config for combatroll of type CLIENT not found]

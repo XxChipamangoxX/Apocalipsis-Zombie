@@ -41,6 +41,7 @@
       "minecraft:spider": "2025-04-02 02:18:55 +0000",
       "minecraft:creeper": "2025-04-01 20:10:24 +0000",
       "minecraft:phantom": "2025-04-02 02:23:43 +0000",
+      "minecraft:enderman": "2025-04-02 18:49:35 +0000",
       "minecraft:zombie": "2025-04-01 19:44:37 +0000"
     },
     "done": false
@@ -1273,6 +1274,42 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2025-04-02 03:20:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2025-04-02 18:50:49 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/sandcastle": {
+    "criteria": {
+      "has_seashell": "2025-04-02 18:58:21 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/seashell_block": {
+    "criteria": {
+      "has_seashell": "2025-04-02 18:58:21 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/seashell_tiles": {
+    "criteria": {
+      "has_seashell": "2025-04-02 18:58:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-04-02 18:58:18 +0000"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/pot": {
+    "criteria": {
+      "has_terracotta": "2025-04-02 18:50:49 +0000"
     },
     "done": true
   },
