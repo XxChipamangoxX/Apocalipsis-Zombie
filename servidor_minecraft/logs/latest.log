@@ -7212,3 +7212,80 @@ com.google.gson.JsonSyntaxException: Unknown item 'projectvibrantjourneys:stripp
 [02Apr2025 03:07:30.223] [ForkJoinPool.commonPool-worker-6/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: alternatively
 [02Apr2025 03:07:30.223] [ForkJoinPool.commonPool-worker-6/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: mix saltpetre, sulphur, coal and sugar to get more gunpowder 
 [02Apr2025 03:07:30.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <meliodas3012> dale uno a jeremy
+[02Apr2025 03:08:40.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeremy_Cuvoy has made the advancement [Stone Age]
+[02Apr2025 03:09:56.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Set own game mode to Survival Mode]
+[02Apr2025 03:11:50.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeremy_Cuvoy was shot by CreeperHunte2068
+[02Apr2025 03:11:50.677] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jeremy_Cuvoy with unique ID travelersbackpack.standard_02.04.2025-03.11.50.dat
+[02Apr2025 03:11:57.192] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[02Apr2025 03:12:08.074] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Jeremy_Cuvoy'/25920, l='ServerLevel[negra]', x=-322.74, y=54.00, z=-166.50] died: Zombie Player was shot by CreeperHunte2068
+[02Apr2025 03:12:15.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Teleported Jeremy_Cuvoy to meliodas3012]
+[02Apr2025 03:12:18.386] [ForkJoinPool.commonPool-worker-9/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: you can craft gunpowder in 2 ways 
+[02Apr2025 03:12:18.387] [ForkJoinPool.commonPool-worker-9/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]:  first make saltpetre with Rotten flash, Potassium and Bone meal
+[02Apr2025 03:12:18.387] [ForkJoinPool.commonPool-worker-9/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: mix saltpetre, sulphur and coal to get a litte of gunpowder
+[02Apr2025 03:12:18.387] [ForkJoinPool.commonPool-worker-9/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: alternatively
+[02Apr2025 03:12:18.387] [ForkJoinPool.commonPool-worker-9/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: mix saltpetre, sulphur, coal and sugar to get more gunpowder 
+[02Apr2025 03:12:18.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <CreeperHunte2068> q paso?
+[02Apr2025 03:12:46.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Set own game mode to Creative Mode]
+[02Apr2025 03:12:56.392] [ForkJoinPool.commonPool-worker-9/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: you can craft gunpowder in 2 ways 
+[02Apr2025 03:12:56.392] [ForkJoinPool.commonPool-worker-9/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]:  first make saltpetre with Rotten flash, Potassium and Bone meal
+[02Apr2025 03:12:56.392] [ForkJoinPool.commonPool-worker-9/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: mix saltpetre, sulphur and coal to get a litte of gunpowder
+[02Apr2025 03:12:56.392] [ForkJoinPool.commonPool-worker-9/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: alternatively
+[02Apr2025 03:12:56.392] [ForkJoinPool.commonPool-worker-9/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: mix saltpetre, sulphur, coal and sugar to get more gunpowder 
+[02Apr2025 03:12:56.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <CreeperHunte2068> na
+[02Apr2025 03:12:59.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Set own game mode to Survival Mode]
+[02Apr2025 03:17:23.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeremy_Cuvoy was slain by Zombie
+[02Apr2025 03:17:23.221] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jeremy_Cuvoy with unique ID travelersbackpack.standard_02.04.2025-03.17.23.dat
+[02Apr2025 03:17:31.950] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[02Apr2025 03:17:33.729] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-41, y=85, z=-36}
+[02Apr2025 03:17:33.776] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-41, y=85, z=-35}
+[02Apr2025 03:17:33.829] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-41, y=85, z=-36}
+[02Apr2025 03:17:34.431] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-37, y=85, z=-36}
+[02Apr2025 03:17:34.505] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-38, y=85, z=-36}
+[02Apr2025 03:17:34.630] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-38, y=85, z=-37}
+[02Apr2025 03:17:34.682] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-39, y=85, z=-37}
+[02Apr2025 03:17:34.884] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-38, y=85, z=-37}
+[02Apr2025 03:17:35.427] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-38, y=85, z=-37}
+[02Apr2025 03:17:35.482] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-39, y=85, z=-37}
+[02Apr2025 03:17:35.927] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-38, y=85, z=-37}
+[02Apr2025 03:17:35.977] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-38, y=84, z=-36}
+[02Apr2025 03:17:36.080] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-38, y=85, z=-35}
+[02Apr2025 03:17:36.181] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-38, y=85, z=-36}
+[02Apr2025 03:17:36.328] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-37, y=85, z=-36}
+[02Apr2025 03:17:38.927] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-38, y=85, z=-35}
+[02Apr2025 03:17:43.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Teleported Jeremy_Cuvoy to meliodas3012]
+[02Apr2025 03:17:54.767] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombiePlayer['Jeremy_Cuvoy'/28056, l='ServerLevel[negra]', x=-458.09, y=84.00, z=-102.67] died: Zombie Player was shot by meliodas3012
+[02Apr2025 03:19:34.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: meliodas3012 was shot by CreeperHunte2068
+[02Apr2025 03:19:34.088] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for meliodas3012 with unique ID travelersbackpack.standard_02.04.2025-03.19.34.dat
+[02Apr2025 03:19:35.775] [Server thread/WARN] [dev.gigaherz.toolbelt.slot.BeltExtensionSlot/]: New entity has data, contents assigned.
+[02Apr2025 03:19:35.974] [ForkJoinPool.commonPool-worker-10/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: you can craft gunpowder in 2 ways 
+[02Apr2025 03:19:35.974] [ForkJoinPool.commonPool-worker-10/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]:  first make saltpetre with Rotten flash, Potassium and Bone meal
+[02Apr2025 03:19:35.974] [ForkJoinPool.commonPool-worker-10/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: mix saltpetre, sulphur and coal to get a litte of gunpowder
+[02Apr2025 03:19:35.974] [ForkJoinPool.commonPool-worker-10/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: alternatively
+[02Apr2025 03:19:35.974] [ForkJoinPool.commonPool-worker-10/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: mix saltpetre, sulphur, coal and sugar to get more gunpowder 
+[02Apr2025 03:19:35.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <CreeperHunte2068> a
+[02Apr2025 03:19:43.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [meliodas3012: Teleported meliodas3012 to CreeperHunte2068]
+[02Apr2025 03:20:38.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: meliodas3012 has made the advancement [Stone Age]
+[02Apr2025 03:23:29.168] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: meliodas3012 lost connection: Disconnected
+[02Apr2025 03:23:29.168] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: meliodas3012 left the game
+[02Apr2025 03:23:29.169] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client meliodas3012
+[02Apr2025 03:23:42.416] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jeremy_Cuvoy lost connection: Disconnected
+[02Apr2025 03:23:42.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeremy_Cuvoy left the game
+[02Apr2025 03:23:42.417] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Jeremy_Cuvoy
+[02Apr2025 03:23:52.616] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 lost connection: Disconnected
+[02Apr2025 03:23:52.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CreeperHunte2068 left the game
+[02Apr2025 03:23:52.617] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client CreeperHunte2068
+[02Apr2025 03:24:10.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[02Apr2025 03:24:10.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Apr2025 03:24:10.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Apr2025 03:24:10.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Apr2025 03:24:10.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[negra]'/minecraft:overworld
+[02Apr2025 03:24:12.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[negra]'/minecraft:the_end
+[02Apr2025 03:24:12.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[negra]'/lostcities:lostcity
+[02Apr2025 03:24:12.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[negra]'/minecraft:the_nether
+[02Apr2025 03:24:12.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02Apr2025 03:24:12.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Apr2025 03:24:12.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[02Apr2025 03:24:12.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Apr2025 03:24:12.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Apr2025 03:24:12.367] [Server thread/INFO] [Framework/]: Unloading server configs...
+[02Apr2025 03:24:12.386] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
