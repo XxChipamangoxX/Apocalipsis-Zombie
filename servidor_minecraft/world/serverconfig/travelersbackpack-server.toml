@@ -3,6 +3,8 @@
 [server]
 
 	[server.backpackSettings]
+		#Backpacks can only be equipped in the Curios/Accessories 'Back' slot, provided those mods are installed. If set to false, backpacks can only be equipped by clicking the button in the Backpack GUI. This setting can be changed without unequipping the backpack. An already equipped backpack will not disappear and can be retrieved from the player's inventory.
+		backSlotIntegration = false
 		#Enables equipping the backpack on right-click from the ground
 		rightClickEquip = true
 		#Enables unequipping the backpack on right-click on the ground with empty hand
@@ -30,8 +32,6 @@
 		#Allows sleeping in a sleeping bag without the need to unequip and place the backpack on the ground
 		quickSleepingBag = true
 		enableSleepingBagSpawnPoint = false
-		#Backpacks can only be equipped in the Curios/Accessories 'Back' slot, provided those mods are installed. If set to false, backpacks can only be equipped by clicking the button in the Backpack GUI. This setting can be changed without unequipping the backpack. An already equipped backpack will not disappear and can be retrieved from the player's inventory.
-		backSlotIntegration = true
 
 		#Leather Tier Backpack Settings
 		[server.backpackSettings.leatherTierBackpack]
