@@ -7121,3 +7121,13 @@ com.google.gson.JsonSyntaxException: Unknown item 'projectvibrantjourneys:stripp
 [03Apr2025 04:11:19.861] [ForkJoinPool.commonPool-worker-8/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: alternatively
 [03Apr2025 04:11:19.861] [ForkJoinPool.commonPool-worker-8/INFO] [net.mcreator.potassiumandsulfurs.PsgMod/]: mix saltpetre, sulphur, coal and sugar to get more gunpowder 
 [03Apr2025 04:11:19.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Jepzzu> comidaaaaaaaaaaaa
+[03Apr2025 04:11:31.785] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player 844d49ec-51e1-3c9e-bf33-43631212efb9 timed out
+[03Apr2025 04:11:31.785] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player CreeperHunte2068
+[03Apr2025 04:11:31.786] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to CreeperHunte2068
+[03Apr2025 04:11:40.891] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CreeperHunte2068 lost connection: Timed out
+[03Apr2025 04:11:40.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: CreeperHunte2068 left the game
+[03Apr2025 04:11:40.894] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client CreeperHunte2068
+[03Apr2025 04:11:40.944] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[03Apr2025 04:15:24.340] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jepzzu lost connection: Disconnected
+[03Apr2025 04:15:24.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jepzzu left the game
+[03Apr2025 04:15:24.340] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Jepzzu

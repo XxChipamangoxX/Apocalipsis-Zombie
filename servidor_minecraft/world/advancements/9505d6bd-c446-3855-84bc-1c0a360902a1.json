@@ -49,7 +49,10 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:spider": "2025-04-03 04:07:58 +0000"
+      "minecraft:skeleton": "2025-04-03 04:12:32 +0000",
+      "minecraft:spider": "2025-04-03 04:07:58 +0000",
+      "minecraft:phantom": "2025-04-03 04:12:43 +0000",
+      "minecraft:zombie": "2025-04-03 04:11:47 +0000"
     },
     "done": false
   },
@@ -152,6 +155,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2025-04-03 04:04:36 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2025-04-03 04:14:56 +0000"
     },
     "done": true
   },
@@ -275,6 +284,12 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2025-04-03 04:14:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2025-04-03 04:01:41 +0000"
@@ -295,7 +310,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "bread": "2025-04-03 04:04:55 +0000"
+      "beef": "2025-04-03 04:12:55 +0000",
+      "bread": "2025-04-03 04:04:55 +0000",
+      "golden_apple": "2025-04-03 04:15:05 +0000"
     },
     "done": false
   },
