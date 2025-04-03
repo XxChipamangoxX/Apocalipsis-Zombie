@@ -1,0 +1,17 @@
+{
+	id: "9505d6bd-c446-3855-84bc-1c0a360902a1"
+	type: "player"
+	player_name: "Jepzzu"
+	ranks: {
+		9505d6bd-c446-3855-84bc-1c0a360902a1: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Jepzzu"
+		"ftbteams:description": ""
+		"ftbteams:color": "#7359FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
